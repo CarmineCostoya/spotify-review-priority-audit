@@ -1,0 +1,6 @@
+{
+  "output_path": "data/analysis_100000.csv",
+  "output_sha256": "a335e78da3c978944e0d6c324336ed923b917aa626396f4b4458a46ff5639204",
+  "selected_nonempty": 100000,
+  "selection_method": "first nonempty rows in source order"
+}

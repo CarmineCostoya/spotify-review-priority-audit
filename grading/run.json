@@ -1,0 +1,10 @@
+{
+  "allow_multi_issue": false,
+  "analysis_count": 100000,
+  "analysis_sha256": "a335e78da3c978944e0d6c324336ed923b917aa626396f4b4458a46ff5639204",
+  "classification_input_fields": [
+    "review_text"
+  ],
+  "scope_note": "100,000 nonempty reviews per professor's in-class requirement update",
+  "version": "a5-audit-v1"
+}

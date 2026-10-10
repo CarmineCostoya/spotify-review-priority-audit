@@ -1,0 +1,5 @@
+model,unit,price_per_unit,currency,effective_date,source_url,measured_or_assumed
+gpt-6-luna,input_token,0.0000001,USD,2026-09-29,https://developers.openai.com/api/docs/models/gpt-6-luna,assignment-provided-rate
+gpt-6-luna,cached_input_token,0.00000001,USD,2026-09-29,https://developers.openai.com/api/docs/models/gpt-6-luna,assignment-provided-rate
+gpt-6-luna,output_token,0.0000005,USD,2026-09-29,https://developers.openai.com/api/docs/models/gpt-6-luna,assignment-provided-rate
+
