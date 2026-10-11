@@ -1,0 +1,14 @@
+{
+  "completed": 100,
+  "elapsed_seconds": 6.964378,
+  "failures_this_run": 0,
+  "input_csv": "course_material/cost_100.csv",
+  "issue_count": 15,
+  "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+  "memo": "cost/cold-run/memo.md",
+  "provider": "openai",
+  "quarantined": 0,
+  "source_records": 100,
+  "verification_disagreements": 0,
+  "verification_sample": 10
+}

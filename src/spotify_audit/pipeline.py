@@ -5,6 +5,7 @@ import json
 import random
 import time
 from collections import defaultdict
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from decimal import Decimal
 from pathlib import Path
 
@@ -32,9 +33,12 @@ def run_pipeline(
     verify_count: int = 10,
     phase: str = "initial",
     max_records: int | None = None,
+    workers: int = 1,
 ) -> dict:
     if not 1 <= batch_size <= 50:
         raise ValueError("batch_size must be between 1 and 50")
+    if not 1 <= workers <= 8:
+        raise ValueError("workers must be between 1 and 8")
     root = Path(run_dir)
     root.mkdir(parents=True, exist_ok=True)
     records_path = root / "records.jsonl"
@@ -54,9 +58,12 @@ def run_pipeline(
         source_rows[row["review_id"]] = row
         if row["review_id"] in completed:
             rec = completed[row["review_id"]]
-            if rec.get("status") == "completed" and not rec.get("cache_source_id"):
-                cache_by_text[row["review_text"]] = rec
-            continue
+            if phase == "resume" and rec.get("status") == "quarantined" and rec.get("reason") == "classification_failed":
+                del completed[row["review_id"]]
+            else:
+                if rec.get("status") == "completed" and not rec.get("cache_source_id"):
+                    cache_by_text[row["review_text"]] = rec
+                continue
         if not row["review_text"].strip():
             rec = {"review_id": row["review_id"], "source_sha256": row_sha(row), "status": "quarantined", "reason": "empty_review_text"}
             append_jsonl(records_path, rec)
@@ -78,45 +85,63 @@ def run_pipeline(
 
     started = time.perf_counter()
     failures = 0
-    for batch in batched(pending, batch_size):
+    def save_success(batch, outputs, call):
+        call["phase"] = phase
+        append_jsonl(calls_path, call)
+        by_id = {r["review_id"]: r for r in batch}
+        for record in outputs:
+            errors = validate_record(record, by_id.get(record.get("review_id")))
+            if errors:
+                raise ValueError("; ".join(errors))
+        for record in outputs:
+            append_jsonl(records_path, record)
+            completed[record["review_id"]] = record
+            cache_by_text[by_id[record["review_id"]]["review_text"]] = record
+            for alias_row in aliases_by_source_id.get(record["review_id"], []):
+                alias = {k: v for k, v in record.items() if k not in ("review_id", "source_sha256")}
+                alias.update({"review_id": alias_row["review_id"], "source_sha256": row_sha(alias_row), "cache_source_id": record["review_id"]})
+                append_jsonl(records_path, alias)
+                completed[alias_row["review_id"]] = alias
+
+    def save_failure(batch, exc):
+        nonlocal failures
+        failures += len(batch)
+        append_jsonl(calls_path, {
+            "request_id": f"failed-{time.time_ns()}",
+            "role": "enrich",
+            "review_ids": [r["review_id"] for r in batch],
+            "model": provider.model,
+            "phase": phase,
+            "outcome": "failed",
+            "label_config": provider.label_config,
+            "error": str(exc),
+            "input_tokens": 0,
+            "output_tokens": 0,
+            "measured_api_call": False,
+        })
+        for row in batch:
+            failed_rows = [row, *aliases_by_source_id.get(row["review_id"], [])]
+            for failed_row in failed_rows:
+                rec = {"review_id": failed_row["review_id"], "source_sha256": row_sha(failed_row), "status": "quarantined", "reason": "classification_failed", "attempts": 1}
+                append_jsonl(records_path, rec)
+                completed[failed_row["review_id"]] = rec
+
+    pending_batches = list(batched(pending, batch_size))
+    if workers == 1:
+        batch_results = ((batch, None) for batch in pending_batches)
+    else:
+        executor = ThreadPoolExecutor(max_workers=workers)
+        futures = {executor.submit(provider.classify_batch, batch, role="enrich"): batch for batch in pending_batches}
+        batch_results = ((futures[future], future) for future in as_completed(futures))
+
+    for batch, future in batch_results:
         try:
-            outputs, call = provider.classify_batch(batch, role="enrich")
-            call["phase"] = phase
-            append_jsonl(calls_path, call)
-            by_id = {r["review_id"]: r for r in batch}
-            for record in outputs:
-                errors = validate_record(record, by_id.get(record.get("review_id")))
-                if errors:
-                    raise ValueError("; ".join(errors))
-            for record in outputs:
-                append_jsonl(records_path, record)
-                completed[record["review_id"]] = record
-                cache_by_text[by_id[record["review_id"]]["review_text"]] = record
-                for alias_row in aliases_by_source_id.get(record["review_id"], []):
-                    alias = {k: v for k, v in record.items() if k not in ("review_id", "source_sha256")}
-                    alias.update({"review_id": alias_row["review_id"], "source_sha256": row_sha(alias_row), "cache_source_id": record["review_id"]})
-                    append_jsonl(records_path, alias)
-                    completed[alias_row["review_id"]] = alias
+            outputs, call = future.result() if future is not None else provider.classify_batch(batch, role="enrich")
+            save_success(batch, outputs, call)
         except Exception as exc:
-            failures += len(batch)
-            append_jsonl(calls_path, {
-                "request_id": f"failed-{int(time.time() * 1000)}",
-                "role": "enrich",
-                "review_ids": [r["review_id"] for r in batch],
-                "model": provider.model,
-                "phase": phase,
-                "outcome": "failed",
-                "label_config": provider.label_config,
-                "error": str(exc),
-                "input_tokens": 0,
-                "output_tokens": 0,
-            })
-            for row in batch:
-                failed_rows = [row, *aliases_by_source_id.get(row["review_id"], [])]
-                for failed_row in failed_rows:
-                    rec = {"review_id": failed_row["review_id"], "source_sha256": row_sha(failed_row), "status": "quarantined", "reason": "classification_failed", "attempts": 1}
-                    append_jsonl(records_path, rec)
-                    completed[failed_row["review_id"]] = rec
+            save_failure(batch, exc)
+    if workers > 1:
+        executor.shutdown()
 
     final_records = [completed[rid] for rid in source_rows]
     write_jsonl(records_path, final_records)
@@ -126,11 +151,33 @@ def run_pipeline(
     sample = rng.sample(completed_records, min(verify_count, len(completed_records)))
     verify_rows = [source_rows[r["review_id"]] for r in sample]
     verifier_records = []
-    for verify_batch in batched(verify_rows, 50):
-        batch_records, verifier_call = provider.classify_batch(verify_batch, role="verify")
-        verifier_call["phase"] = phase
-        append_jsonl(calls_path, verifier_call)
-        verifier_records.extend(batch_records)
+    for verify_batch in batched(verify_rows, min(10, batch_size)):
+        try:
+            batch_records, verifier_call = provider.classify_batch(verify_batch, role="verify")
+            verifier_call["phase"] = phase
+            append_jsonl(calls_path, verifier_call)
+            verifier_records.extend(batch_records)
+        except Exception as exc:
+            append_jsonl(calls_path, {
+                "request_id": f"failed-{int(time.time() * 1000)}",
+                "role": "verify",
+                "review_ids": [r["review_id"] for r in verify_batch],
+                "model": provider.model,
+                "phase": phase,
+                "outcome": "failed",
+                "label_config": provider.label_config,
+                "error": str(exc),
+                "input_tokens": 0,
+                "output_tokens": 0,
+                "measured_api_call": False,
+            })
+            if len(verify_batch) == 1:
+                raise
+            for verify_row in verify_batch:
+                row_records, row_call = provider.classify_batch([verify_row], role="verify")
+                row_call["phase"] = phase
+                append_jsonl(calls_path, row_call)
+                verifier_records.extend(row_records)
     write_jsonl(root / "verification.jsonl", verifier_records)
     original_by_id = {r["review_id"]: r for r in sample}
     disagreements = []
@@ -212,6 +259,34 @@ def write_ranking(path: Path, ranking: list[dict]) -> None:
     with path.open("w", encoding="utf-8", newline="") as handle:
         writer = csv.DictWriter(handle, fieldnames=fields, lineterminator="\n")
         writer.writeheader(); writer.writerows(ranking)
+
+
+def rebuild_ranking(input_csv: str, run_dir: str) -> dict:
+    """Regenerate membership, ranking, and checked numerical claims without model calls."""
+    root = Path(run_dir)
+    source_rows = {row["review_id"]: row for row in iter_csv(input_csv)}
+    records = list(read_jsonl(root / "records.jsonl"))
+    completed = [record for record in records if record.get("status") == "completed"]
+    memberships = []
+    for record in completed:
+        if record.get("intent") in ("complaint", "cancellation"):
+            source = source_rows.get(record["review_id"])
+            if source is None:
+                raise ValueError(f"record is missing from source input: {record['review_id']}")
+            memberships.append({"issue_id": issue_for(record, source["review_text"]), "review_id": record["review_id"]})
+    with (root / "membership.csv").open("w", encoding="utf-8", newline="") as handle:
+        writer = csv.DictWriter(handle, fieldnames=["issue_id", "review_id"], lineterminator="\n")
+        writer.writeheader(); writer.writerows(memberships)
+    ranking = rank_records(completed, memberships)
+    write_ranking(root / "ranking.csv", ranking)
+    claims = []
+    for item in ranking[:3]:
+        for metric in ("complaint_count", "severity_sum", "mean_severity", "priority_score"):
+            claims.append({"claim_id": f"CLAIM-{len(claims)+1:03d}", "issue_id": item["issue_id"], "metric": metric, "value": item[metric]})
+    with (root / "claims.csv").open("w", encoding="utf-8", newline="") as handle:
+        writer = csv.DictWriter(handle, fieldnames=["claim_id", "issue_id", "metric", "value"], lineterminator="\n")
+        writer.writeheader(); writer.writerows(claims)
+    return {"completed_records": len(completed), "membership_rows": len(memberships), "ranked_issues": len(ranking)}
 
 
 def write_memo(path: Path, ranking: list[dict], memberships: list[dict]) -> str:

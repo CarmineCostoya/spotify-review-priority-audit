@@ -1,0 +1,4911 @@
+{
+  "disagreement_count": 135,
+  "disagreements": [
+    {
+      "enricher": {
+        "entities": [
+          "playlist",
+          "music selection"
+        ],
+        "evidence_quote": "Great to be able to create own Playlist from 1000 of choices",
+        "intent": "praise",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "557e0726-c979-4606-9fb5-fa5dae16e8b9",
+        "sentiment": 0.8,
+        "severity": 1,
+        "source_sha256": "260a646fc489230acc17440e318213ef85086bd45e89747e594ca290d48de178",
+        "status": "completed",
+        "topic": "catalog"
+      },
+      "fields": [
+        "topic"
+      ],
+      "review_id": "557e0726-c979-4606-9fb5-fa5dae16e8b9",
+      "verifier": {
+        "entities": [
+          "Playlist"
+        ],
+        "evidence_quote": "Great to be able to create own Playlist from 1000 of choices",
+        "intent": "praise",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "557e0726-c979-4606-9fb5-fa5dae16e8b9",
+        "sentiment": 0.8,
+        "severity": 1,
+        "source_sha256": "260a646fc489230acc17440e318213ef85086bd45e89747e594ca290d48de178",
+        "status": "completed",
+        "topic": "usability"
+      }
+    },
+    {
+      "enricher": {
+        "entities": [
+          "uninstall"
+        ],
+        "evidence_quote": "It wont let me uninstall",
+        "intent": "cancellation",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "8378df57-dfb6-47e5-b433-e74647a74208",
+        "sentiment": -0.5,
+        "severity": 1,
+        "source_sha256": "3505b17479beccced2ac5586653e4853276f69acf9584b93903cdbd56bf33616",
+        "status": "completed",
+        "topic": "other"
+      },
+      "fields": [
+        "topic",
+        "severity"
+      ],
+      "review_id": "8378df57-dfb6-47e5-b433-e74647a74208",
+      "verifier": {
+        "entities": [
+          "uninstall"
+        ],
+        "evidence_quote": "It wont let me uninstall",
+        "intent": "cancellation",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "8378df57-dfb6-47e5-b433-e74647a74208",
+        "sentiment": -0.6,
+        "severity": 3,
+        "source_sha256": "3505b17479beccced2ac5586653e4853276f69acf9584b93903cdbd56bf33616",
+        "status": "completed",
+        "topic": "usability"
+      }
+    },
+    {
+      "enricher": {
+        "entities": [
+          "playlist"
+        ],
+        "evidence_quote": "It won't let me listen to it and makes me listen to other song not on my play list",
+        "intent": "complaint",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "b13ea424-a5a8-41c7-b126-97998e709e4c",
+        "sentiment": -0.5,
+        "severity": 3,
+        "source_sha256": "aa4d379df000d4b9697004f12b737fae5c35197291fb83e61a597199f4740b13",
+        "status": "completed",
+        "topic": "catalog"
+      },
+      "fields": [
+        "topic"
+      ],
+      "review_id": "b13ea424-a5a8-41c7-b126-97998e709e4c",
+      "verifier": {
+        "entities": [
+          "playlist",
+          "songs"
+        ],
+        "evidence_quote": "It won't let me listen to it and makes me listen to other song not on my play list.",
+        "intent": "complaint",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "b13ea424-a5a8-41c7-b126-97998e709e4c",
+        "sentiment": -0.8,
+        "severity": 3,
+        "source_sha256": "aa4d379df000d4b9697004f12b737fae5c35197291fb83e61a597199f4740b13",
+        "status": "completed",
+        "topic": "playback"
+      }
+    },
+    {
+      "enricher": {
+        "entities": [
+          "app adjustments"
+        ],
+        "evidence_quote": "minor ajusents need to be made",
+        "intent": "complaint",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "4ffd8443-b956-4eb1-9632-56aac40dd121",
+        "sentiment": -0.2,
+        "severity": 2,
+        "source_sha256": "f145b74ea054b6976887dd505674e047975129e980772c885f7d7cb71647e371",
+        "status": "completed",
+        "topic": "usability"
+      },
+      "fields": [
+        "topic",
+        "intent",
+        "severity"
+      ],
+      "review_id": "4ffd8443-b956-4eb1-9632-56aac40dd121",
+      "verifier": {
+        "entities": [],
+        "evidence_quote": "Keeps all my music but minor ajusents need to be made",
+        "intent": "request",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": true,
+        "review_id": "4ffd8443-b956-4eb1-9632-56aac40dd121",
+        "sentiment": 0.1,
+        "severity": 1,
+        "source_sha256": "f145b74ea054b6976887dd505674e047975129e980772c885f7d7cb71647e371",
+        "status": "completed",
+        "topic": "other"
+      }
+    },
+    {
+      "enricher": {
+        "entities": [],
+        "evidence_quote": "Bakwass",
+        "intent": "unclear",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": true,
+        "review_id": "66fa368c-5ca2-464c-b752-e4524b89f0b7",
+        "sentiment": -0.4,
+        "severity": 1,
+        "source_sha256": "ca6d7759b74a1d93ecbec668f20b3bd20fe3d441c3c6921148e007fc842e67d9",
+        "status": "completed",
+        "topic": "other"
+      },
+      "fields": [
+        "intent",
+        "severity"
+      ],
+      "review_id": "66fa368c-5ca2-464c-b752-e4524b89f0b7",
+      "verifier": {
+        "entities": [],
+        "evidence_quote": "Bakwass",
+        "intent": "complaint",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": true,
+        "review_id": "66fa368c-5ca2-464c-b752-e4524b89f0b7",
+        "sentiment": -0.8,
+        "severity": 2,
+        "source_sha256": "ca6d7759b74a1d93ecbec668f20b3bd20fe3d441c3c6921148e007fc842e67d9",
+        "status": "completed",
+        "topic": "other"
+      }
+    },
+    {
+      "enricher": {
+        "entities": [
+          "looping songs"
+        ],
+        "evidence_quote": "Really good only thing missing is looping songs",
+        "intent": "request",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "e6d360f3-0fc6-4f34-925f-5caaba84d2d6",
+        "sentiment": 0.5,
+        "severity": 1,
+        "source_sha256": "ccab4f749d4b155193a52a78747a1605ce1b0609bc3c666dafa80fff6aafa271",
+        "status": "completed",
+        "topic": "usability"
+      },
+      "fields": [
+        "topic"
+      ],
+      "review_id": "e6d360f3-0fc6-4f34-925f-5caaba84d2d6",
+      "verifier": {
+        "entities": [
+          "looping songs"
+        ],
+        "evidence_quote": "Really good only thing missing is looping songs",
+        "intent": "request",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "e6d360f3-0fc6-4f34-925f-5caaba84d2d6",
+        "sentiment": 0.6,
+        "severity": 1,
+        "source_sha256": "ccab4f749d4b155193a52a78747a1605ce1b0609bc3c666dafa80fff6aafa271",
+        "status": "completed",
+        "topic": "playback"
+      }
+    },
+    {
+      "enricher": {
+        "entities": [
+          "support team",
+          "app",
+          "membership"
+        ],
+        "evidence_quote": "I've worked with the support team to gain access to the busted app, and now I have to just wait until they fix it.",
+        "intent": "complaint",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "c3504025-8207-4622-be27-4441c8cf5462",
+        "sentiment": -0.9,
+        "severity": 3,
+        "source_sha256": "41b7fb3c694f23cc0fca9d9d0ee1bb79f4c0e2e6f950414d832053060fd746ac",
+        "status": "completed",
+        "topic": "access"
+      },
+      "fields": [
+        "severity"
+      ],
+      "review_id": "c3504025-8207-4622-be27-4441c8cf5462",
+      "verifier": {
+        "entities": [
+          "support team",
+          "membership"
+        ],
+        "evidence_quote": "gain access to the busted app",
+        "intent": "complaint",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "c3504025-8207-4622-be27-4441c8cf5462",
+        "sentiment": -0.7,
+        "severity": 4,
+        "source_sha256": "41b7fb3c694f23cc0fca9d9d0ee1bb79f4c0e2e6f950414d832053060fd746ac",
+        "status": "completed",
+        "topic": "access"
+      }
+    },
+    {
+      "enricher": {
+        "entities": [
+          "Echo Dot"
+        ],
+        "evidence_quote": "Enjoyed it especially linking it through echo dot speakers...nice!",
+        "intent": "praise",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "1f270e67-5c15-4262-9486-c1ebd60bc428",
+        "sentiment": 0.8,
+        "severity": 1,
+        "source_sha256": "931fecf823b0820ef5cd9583c397ba0c9dc016abdbe8ccae869b00b40f418106",
+        "status": "completed",
+        "topic": "other"
+      },
+      "fields": [
+        "topic"
+      ],
+      "review_id": "1f270e67-5c15-4262-9486-c1ebd60bc428",
+      "verifier": {
+        "entities": [
+          "Echo Dot"
+        ],
+        "evidence_quote": "Enjoyed it especially linking it through echo dot speakers...nice!",
+        "intent": "praise",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "1f270e67-5c15-4262-9486-c1ebd60bc428",
+        "sentiment": 0.9,
+        "severity": 1,
+        "source_sha256": "931fecf823b0820ef5cd9583c397ba0c9dc016abdbe8ccae869b00b40f418106",
+        "status": "completed",
+        "topic": "usability"
+      }
+    },
+    {
+      "enricher": {
+        "entities": [
+          "usability"
+        ],
+        "evidence_quote": "somethimes I don't understand it:)",
+        "intent": "complaint",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "0e917ac6-4d03-42de-9e04-a3681ccd8f1c",
+        "sentiment": 0.1,
+        "severity": 2,
+        "source_sha256": "78e1a516488855b6076c5dec12f092e5bbff7f162debff958e049c444dbc9567",
+        "status": "completed",
+        "topic": "usability"
+      },
+      "fields": [
+        "intent",
+        "severity"
+      ],
+      "review_id": "0e917ac6-4d03-42de-9e04-a3681ccd8f1c",
+      "verifier": {
+        "entities": [],
+        "evidence_quote": "It's good app where you can lissent music but somethimes I don't understand it:)",
+        "intent": "unclear",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "0e917ac6-4d03-42de-9e04-a3681ccd8f1c",
+        "sentiment": 0.2,
+        "severity": 1,
+        "source_sha256": "78e1a516488855b6076c5dec12f092e5bbff7f162debff958e049c444dbc9567",
+        "status": "completed",
+        "topic": "usability"
+      }
+    },
+    {
+      "enricher": {
+        "entities": [
+          "links"
+        ],
+        "evidence_quote": "doesn't work, cannot open links",
+        "intent": "complaint",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "36c30013-aeb5-4fc1-a7a8-649c1c36eaec",
+        "sentiment": -0.7,
+        "severity": 3,
+        "source_sha256": "b2a49656f93572f497200acd02fd806fb77ca1ed88442d1f6481fda9f2da7965",
+        "status": "completed",
+        "topic": "usability"
+      },
+      "fields": [
+        "topic"
+      ],
+      "review_id": "36c30013-aeb5-4fc1-a7a8-649c1c36eaec",
+      "verifier": {
+        "entities": [
+          "links"
+        ],
+        "evidence_quote": "doesn't work, cannot open links",
+        "intent": "complaint",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "36c30013-aeb5-4fc1-a7a8-649c1c36eaec",
+        "sentiment": -0.7,
+        "severity": 3,
+        "source_sha256": "b2a49656f93572f497200acd02fd806fb77ca1ed88442d1f6481fda9f2da7965",
+        "status": "completed",
+        "topic": "playback"
+      }
+    },
+    {
+      "enricher": {
+        "entities": [
+          "Premium"
+        ],
+        "evidence_quote": "I can't pay for premium",
+        "intent": "complaint",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "a8f47a4d-5f40-4c18-b988-876c214f0cb6",
+        "sentiment": -0.4,
+        "severity": 1,
+        "source_sha256": "220cdfea7b80913131cafe023a62bf4b91cfd23616552a9f5aa5bd280d97c14c",
+        "status": "completed",
+        "topic": "billing"
+      },
+      "fields": [
+        "severity"
+      ],
+      "review_id": "a8f47a4d-5f40-4c18-b988-876c214f0cb6",
+      "verifier": {
+        "entities": [
+          "Premium"
+        ],
+        "evidence_quote": "I can't pay for premium",
+        "intent": "complaint",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "a8f47a4d-5f40-4c18-b988-876c214f0cb6",
+        "sentiment": -0.5,
+        "severity": 3,
+        "source_sha256": "220cdfea7b80913131cafe023a62bf4b91cfd23616552a9f5aa5bd280d97c14c",
+        "status": "completed",
+        "topic": "billing"
+      }
+    },
+    {
+      "enricher": {
+        "entities": [
+          "free listening",
+          "high quality sound"
+        ],
+        "evidence_quote": "Free listening with high quality sound. Really good",
+        "intent": "praise",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "24489946-8a5f-46cc-9950-019b90d5ae81",
+        "sentiment": 0.9,
+        "severity": 1,
+        "source_sha256": "61eeefd30f79bd364598286e691c08857513198e42e37ee82b8e3f7cb3cc84c8",
+        "status": "completed",
+        "topic": "playback"
+      },
+      "fields": [
+        "topic"
+      ],
+      "review_id": "24489946-8a5f-46cc-9950-019b90d5ae81",
+      "verifier": {
+        "entities": [
+          "high quality sound"
+        ],
+        "evidence_quote": "Free listening with high quality sound. Really good",
+        "intent": "praise",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "24489946-8a5f-46cc-9950-019b90d5ae81",
+        "sentiment": 0.8,
+        "severity": 1,
+        "source_sha256": "61eeefd30f79bd364598286e691c08857513198e42e37ee82b8e3f7cb3cc84c8",
+        "status": "completed",
+        "topic": "other"
+      }
+    },
+    {
+      "enricher": {
+        "entities": [
+          "ads",
+          "other apps"
+        ],
+        "evidence_quote": "So, focus on another apps.",
+        "intent": "cancellation",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "0b285b40-5179-4067-8fe9-5e89daef4453",
+        "sentiment": -0.7,
+        "severity": 2,
+        "source_sha256": "4ec79bba90904e91f2e4f5ba4c0b89a5d5812a0d57cb6175a35ba1864added63",
+        "status": "completed",
+        "topic": "usability"
+      },
+      "fields": [
+        "intent"
+      ],
+      "review_id": "0b285b40-5179-4067-8fe9-5e89daef4453",
+      "verifier": {
+        "entities": [
+          "ads"
+        ],
+        "evidence_quote": "There has too ads to listen song.",
+        "intent": "complaint",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "0b285b40-5179-4067-8fe9-5e89daef4453",
+        "sentiment": -0.6,
+        "severity": 2,
+        "source_sha256": "4ec79bba90904e91f2e4f5ba4c0b89a5d5812a0d57cb6175a35ba1864added63",
+        "status": "completed",
+        "topic": "usability"
+      }
+    },
+    {
+      "enricher": {
+        "entities": [],
+        "evidence_quote": "No words bro...just music ...😌",
+        "intent": "unclear",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "8a802659-c13d-4cd7-bbea-f6418245307a",
+        "sentiment": 0,
+        "severity": 1,
+        "source_sha256": "d3d8f799d9e1456acae1cd426f7b1ae2e586749cfa2f570ebc501cbd264f0092",
+        "status": "completed",
+        "topic": "other"
+      },
+      "fields": [
+        "intent"
+      ],
+      "review_id": "8a802659-c13d-4cd7-bbea-f6418245307a",
+      "verifier": {
+        "entities": [
+          "music"
+        ],
+        "evidence_quote": "No words bro...just music ...😌",
+        "intent": "praise",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "8a802659-c13d-4cd7-bbea-f6418245307a",
+        "sentiment": 0.7,
+        "severity": 1,
+        "source_sha256": "d3d8f799d9e1456acae1cd426f7b1ae2e586749cfa2f570ebc501cbd264f0092",
+        "status": "completed",
+        "topic": "other"
+      }
+    },
+    {
+      "enricher": {
+        "cache_source_id": "cb42ceba-03d4-40be-a80b-e4eb3b2655b2",
+        "entities": [],
+        "evidence_quote": "Very bad",
+        "intent": "complaint",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "4b27b743-0ba8-4cb0-9f70-02141b3db1e8",
+        "sentiment": -0.7,
+        "severity": 2,
+        "source_sha256": "059ff0020dbfd5af29e7a9d7f7ee8b7e4aa0d366bd1f3bdf1e91e77d82c21de9",
+        "status": "completed",
+        "topic": "other"
+      },
+      "fields": [
+        "intent",
+        "severity"
+      ],
+      "review_id": "4b27b743-0ba8-4cb0-9f70-02141b3db1e8",
+      "verifier": {
+        "entities": [],
+        "evidence_quote": "Very bad",
+        "intent": "unclear",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": true,
+        "review_id": "4b27b743-0ba8-4cb0-9f70-02141b3db1e8",
+        "sentiment": -0.6,
+        "severity": 1,
+        "source_sha256": "059ff0020dbfd5af29e7a9d7f7ee8b7e4aa0d366bd1f3bdf1e91e77d82c21de9",
+        "status": "completed",
+        "topic": "other"
+      }
+    },
+    {
+      "enricher": {
+        "entities": [
+          "on-demand listening",
+          "albums"
+        ],
+        "evidence_quote": "Listen to what ever I want on demand ... Whole albums",
+        "intent": "praise",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "eb6d0054-714b-45c0-9a35-41811318435c",
+        "sentiment": 0.7,
+        "severity": 1,
+        "source_sha256": "db67990812e603f8087469736fcff546b0546ac4c907f624a67981f748f1feff",
+        "status": "completed",
+        "topic": "catalog"
+      },
+      "fields": [
+        "topic",
+        "intent"
+      ],
+      "review_id": "eb6d0054-714b-45c0-9a35-41811318435c",
+      "verifier": {
+        "entities": [
+          "on-demand playback",
+          "albums"
+        ],
+        "evidence_quote": "Listen to what ever I want on demand ... Whole albums",
+        "intent": "request",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "eb6d0054-714b-45c0-9a35-41811318435c",
+        "sentiment": 0.4,
+        "severity": 1,
+        "source_sha256": "db67990812e603f8087469736fcff546b0546ac4c907f624a67981f748f1feff",
+        "status": "completed",
+        "topic": "usability"
+      }
+    },
+    {
+      "enricher": {
+        "entities": [
+          "account",
+          "login"
+        ],
+        "evidence_quote": "I woke when on Spotify and my acc was logged out tried logging in nothing was working no matter what I tried.",
+        "intent": "complaint",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "8e3e820a-3a69-4c81-b21c-0499bfa26908",
+        "sentiment": -0.5,
+        "severity": 4,
+        "source_sha256": "807bde425f5308cea6626f700bf9b4053525d62c98ecb481fed9d43371016887",
+        "status": "completed",
+        "topic": "access"
+      },
+      "fields": [
+        "severity"
+      ],
+      "review_id": "8e3e820a-3a69-4c81-b21c-0499bfa26908",
+      "verifier": {
+        "entities": [
+          "account",
+          "login"
+        ],
+        "evidence_quote": "my acc was logged out tried logging in nothing was working no matter what I tried",
+        "intent": "complaint",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "8e3e820a-3a69-4c81-b21c-0499bfa26908",
+        "sentiment": -0.5,
+        "severity": 3,
+        "source_sha256": "807bde425f5308cea6626f700bf9b4053525d62c98ecb481fed9d43371016887",
+        "status": "completed",
+        "topic": "access"
+      }
+    },
+    {
+      "enricher": {
+        "entities": [
+          "continuous music"
+        ],
+        "evidence_quote": "Continued music!!",
+        "intent": "praise",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": true,
+        "review_id": "7818b803-567a-4000-bb03-0b67fac38530",
+        "sentiment": 0.7,
+        "severity": 1,
+        "source_sha256": "4d0e734fb12ae91f270587f337009c286860404acf83bd10ac11c21e4b75342c",
+        "status": "completed",
+        "topic": "playback"
+      },
+      "fields": [
+        "topic",
+        "intent"
+      ],
+      "review_id": "7818b803-567a-4000-bb03-0b67fac38530",
+      "verifier": {
+        "entities": [],
+        "evidence_quote": "Continued music!!",
+        "intent": "unclear",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": true,
+        "review_id": "7818b803-567a-4000-bb03-0b67fac38530",
+        "sentiment": 0,
+        "severity": 1,
+        "source_sha256": "4d0e734fb12ae91f270587f337009c286860404acf83bd10ac11c21e4b75342c",
+        "status": "completed",
+        "topic": "other"
+      }
+    },
+    {
+      "enricher": {
+        "cache_source_id": "6dc0c0c2-0c39-4803-b396-ae04a5c13ace",
+        "entities": [],
+        "evidence_quote": "🤘🤘🤘",
+        "intent": "unclear",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": true,
+        "review_id": "77b88bb1-c2f9-4abf-a854-84edd6e3fd60",
+        "sentiment": 0,
+        "severity": 1,
+        "source_sha256": "7f29b661b08a867eb958fc43bfd96ac96706d8a4c9d0cc4eb4efdd025b5cefd7",
+        "status": "completed",
+        "topic": "other"
+      },
+      "fields": [
+        "intent"
+      ],
+      "review_id": "77b88bb1-c2f9-4abf-a854-84edd6e3fd60",
+      "verifier": {
+        "entities": [],
+        "evidence_quote": "🤘🤘🤘",
+        "intent": "praise",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "77b88bb1-c2f9-4abf-a854-84edd6e3fd60",
+        "sentiment": 1,
+        "severity": 1,
+        "source_sha256": "7f29b661b08a867eb958fc43bfd96ac96706d8a4c9d0cc4eb4efdd025b5cefd7",
+        "status": "completed",
+        "topic": "other"
+      }
+    },
+    {
+      "enricher": {
+        "cache_source_id": "ed0b52e8-fd91-4dcb-8e80-c179ddeb614c",
+        "entities": [],
+        "evidence_quote": "Professional",
+        "intent": "praise",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "bfc9e47f-22d5-42cd-83f5-1959b2b94090",
+        "sentiment": 0.5,
+        "severity": 1,
+        "source_sha256": "948d7c7ce9b9321ae92de5c53bafe98f981b152c91c77ec6aa65a52b66e23d11",
+        "status": "completed",
+        "topic": "other"
+      },
+      "fields": [
+        "intent"
+      ],
+      "review_id": "bfc9e47f-22d5-42cd-83f5-1959b2b94090",
+      "verifier": {
+        "entities": [],
+        "evidence_quote": "Professional",
+        "intent": "unclear",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "bfc9e47f-22d5-42cd-83f5-1959b2b94090",
+        "sentiment": 0,
+        "severity": 1,
+        "source_sha256": "948d7c7ce9b9321ae92de5c53bafe98f981b152c91c77ec6aa65a52b66e23d11",
+        "status": "completed",
+        "topic": "other"
+      }
+    },
+    {
+      "enricher": {
+        "entities": [
+          "liked songs folder"
+        ],
+        "evidence_quote": "my liked songs folder isn't opening at all",
+        "intent": "complaint",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "aa91c32e-bc4a-43a1-bc40-7c6204efef29",
+        "sentiment": -0.6,
+        "severity": 3,
+        "source_sha256": "417b4bdc75b9c3199f88de791c5b45e0e13fa0f16010cc24636231aab37b9456",
+        "status": "completed",
+        "topic": "usability"
+      },
+      "fields": [
+        "topic"
+      ],
+      "review_id": "aa91c32e-bc4a-43a1-bc40-7c6204efef29",
+      "verifier": {
+        "entities": [
+          "liked songs"
+        ],
+        "evidence_quote": "my liked songs folder isn't opening at all Please fix this issue",
+        "intent": "complaint",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "aa91c32e-bc4a-43a1-bc40-7c6204efef29",
+        "sentiment": -0.5,
+        "severity": 3,
+        "source_sha256": "417b4bdc75b9c3199f88de791c5b45e0e13fa0f16010cc24636231aab37b9456",
+        "status": "completed",
+        "topic": "catalog"
+      }
+    },
+    {
+      "enricher": {
+        "cache_source_id": "b6802149-c41d-4a7b-8f00-27d00439f1ed",
+        "entities": [],
+        "evidence_quote": "Terrible",
+        "intent": "unclear",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": true,
+        "review_id": "180ec324-3878-4fe8-90f2-b8007bc5fed7",
+        "sentiment": -1,
+        "severity": 2,
+        "source_sha256": "0a9c14d87377b1a818ad64bcd89765fa8e739ba81d3cf035cc4be8afeb2f7889",
+        "status": "completed",
+        "topic": "other"
+      },
+      "fields": [
+        "intent"
+      ],
+      "review_id": "180ec324-3878-4fe8-90f2-b8007bc5fed7",
+      "verifier": {
+        "entities": [],
+        "evidence_quote": "Terrible",
+        "intent": "complaint",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "180ec324-3878-4fe8-90f2-b8007bc5fed7",
+        "sentiment": -0.7,
+        "severity": 2,
+        "source_sha256": "0a9c14d87377b1a818ad64bcd89765fa8e739ba81d3cf035cc4be8afeb2f7889",
+        "status": "completed",
+        "topic": "other"
+      }
+    },
+    {
+      "enricher": {
+        "entities": [
+          "Pioneer stereo",
+          "Spotify"
+        ],
+        "evidence_quote": "its been pulled and no longer works",
+        "intent": "complaint",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "641d2126-bc09-415d-bbfc-817a38a0b91b",
+        "sentiment": -0.9,
+        "severity": 3,
+        "source_sha256": "588b7a00f94da01072eb12de6a98b3bd122bf6cac8bfa69ccc3f594b572687eb",
+        "status": "completed",
+        "topic": "playback"
+      },
+      "fields": [
+        "topic"
+      ],
+      "review_id": "641d2126-bc09-415d-bbfc-817a38a0b91b",
+      "verifier": {
+        "entities": [
+          "Pioneer stereo",
+          "Spotify"
+        ],
+        "evidence_quote": "Paid £400 for a pioneer stereo with Spotify added to find out its been pulled and no longer works. Aghh",
+        "intent": "complaint",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "641d2126-bc09-415d-bbfc-817a38a0b91b",
+        "sentiment": -1,
+        "severity": 3,
+        "source_sha256": "588b7a00f94da01072eb12de6a98b3bd122bf6cac8bfa69ccc3f594b572687eb",
+        "status": "completed",
+        "topic": "access"
+      }
+    },
+    {
+      "enricher": {
+        "entities": [
+          "commercials",
+          "Premium",
+          "Hulu",
+          "playlists",
+          "song search"
+        ],
+        "evidence_quote": "Last straw I go look for a song that they show in the results but won't play or add to any playlists.",
+        "intent": "cancellation",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "b4a5c6c1-7f43-4862-811b-8b9f913f7936",
+        "sentiment": -0.9,
+        "severity": 3,
+        "source_sha256": "11ea6b19d3e86d807de031769b12b8844d01536d5a1fbb0e930dad24a11a252d",
+        "status": "completed",
+        "topic": "catalog"
+      },
+      "fields": [
+        "intent"
+      ],
+      "review_id": "b4a5c6c1-7f43-4862-811b-8b9f913f7936",
+      "verifier": {
+        "entities": [
+          "commercials",
+          "Hulu",
+          "playlists",
+          "song"
+        ],
+        "evidence_quote": "I go look for a song that they show in the results but won't play or add to any playlists.",
+        "intent": "complaint",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "b4a5c6c1-7f43-4862-811b-8b9f913f7936",
+        "sentiment": -1,
+        "severity": 3,
+        "source_sha256": "11ea6b19d3e86d807de031769b12b8844d01536d5a1fbb0e930dad24a11a252d",
+        "status": "completed",
+        "topic": "catalog"
+      }
+    },
+    {
+      "enricher": {
+        "entities": [
+          "music selection",
+          "access"
+        ],
+        "evidence_quote": "Great selection of music and easy to access.",
+        "intent": "praise",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "b567cff0-6570-44b0-a94b-96b405d9b3ed",
+        "sentiment": 0.8,
+        "severity": 1,
+        "source_sha256": "15b3214e9d22193bffad3b3fb33ba90407b4676e6c2e105957673ded35d16c2c",
+        "status": "completed",
+        "topic": "catalog"
+      },
+      "fields": [
+        "topic"
+      ],
+      "review_id": "b567cff0-6570-44b0-a94b-96b405d9b3ed",
+      "verifier": {
+        "entities": [
+          "music"
+        ],
+        "evidence_quote": "Great selection of music and easy to access.",
+        "intent": "praise",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "b567cff0-6570-44b0-a94b-96b405d9b3ed",
+        "sentiment": 1,
+        "severity": 1,
+        "source_sha256": "15b3214e9d22193bffad3b3fb33ba90407b4676e6c2e105957673ded35d16c2c",
+        "status": "completed",
+        "topic": "other"
+      }
+    },
+    {
+      "enricher": {
+        "entities": [
+          "playback",
+          "album content"
+        ],
+        "evidence_quote": "when i want to play music it always stuck at 00:00",
+        "intent": "complaint",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "14c0d2bf-65e6-4ad2-b76c-a1635030b4b5",
+        "sentiment": -0.7,
+        "severity": 4,
+        "source_sha256": "e6f04824687863702f86c03a78ed222b45a1122dc311bdaec60c31dbb566f952",
+        "status": "completed",
+        "topic": "playback"
+      },
+      "fields": [
+        "severity"
+      ],
+      "review_id": "14c0d2bf-65e6-4ad2-b76c-a1635030b4b5",
+      "verifier": {
+        "entities": [
+          "music playback",
+          "album"
+        ],
+        "evidence_quote": "when i want to play music it always stuck at 00:00 and also the music is all gone in one album.please fix this problem.",
+        "intent": "complaint",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "14c0d2bf-65e6-4ad2-b76c-a1635030b4b5",
+        "sentiment": -1,
+        "severity": 3,
+        "source_sha256": "e6f04824687863702f86c03a78ed222b45a1122dc311bdaec60c31dbb566f952",
+        "status": "completed",
+        "topic": "playback"
+      }
+    },
+    {
+      "enricher": {
+        "entities": [],
+        "evidence_quote": "Jurk app😑😑😑😑",
+        "intent": "complaint",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": true,
+        "review_id": "e06946de-aca8-4f4e-b164-c4e076d9b09d",
+        "sentiment": -0.6,
+        "severity": 2,
+        "source_sha256": "d6c7930e28b269d7cc21ea8a426f0c416e2942c8933d6e10cf6cd608282262c9",
+        "status": "completed",
+        "topic": "other"
+      },
+      "fields": [
+        "intent"
+      ],
+      "review_id": "e06946de-aca8-4f4e-b164-c4e076d9b09d",
+      "verifier": {
+        "entities": [],
+        "evidence_quote": "Jurk app😑😑😑😑",
+        "intent": "unclear",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": true,
+        "review_id": "e06946de-aca8-4f4e-b164-c4e076d9b09d",
+        "sentiment": -1,
+        "severity": 2,
+        "source_sha256": "d6c7930e28b269d7cc21ea8a426f0c416e2942c8933d6e10cf6cd608282262c9",
+        "status": "completed",
+        "topic": "other"
+      }
+    },
+    {
+      "enricher": {
+        "entities": [
+          "music"
+        ],
+        "evidence_quote": "HUUUUGE music selection",
+        "intent": "praise",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "3dad492e-d5f1-4feb-88a7-05cad871dd1d",
+        "sentiment": 0.9,
+        "severity": 1,
+        "source_sha256": "4cc7061ee199b3cafb56ca9e0d7fc46fa62d0b9ab36eae30338c1260ec71636f",
+        "status": "completed",
+        "topic": "catalog"
+      },
+      "fields": [
+        "topic"
+      ],
+      "review_id": "3dad492e-d5f1-4feb-88a7-05cad871dd1d",
+      "verifier": {
+        "entities": [],
+        "evidence_quote": "HUUUUGE music selection, easy to use!",
+        "intent": "praise",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "3dad492e-d5f1-4feb-88a7-05cad871dd1d",
+        "sentiment": 0.9,
+        "severity": 1,
+        "source_sha256": "4cc7061ee199b3cafb56ca9e0d7fc46fa62d0b9ab36eae30338c1260ec71636f",
+        "status": "completed",
+        "topic": "usability"
+      }
+    },
+    {
+      "enricher": {
+        "entities": [
+          "app"
+        ],
+        "evidence_quote": "It is not working",
+        "intent": "complaint",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": true,
+        "review_id": "e1510507-94de-491f-8b38-c49274dddb3a",
+        "sentiment": -0.5,
+        "severity": 2,
+        "source_sha256": "30706927bb9e39963d58829940accec076da225863bc0363ed40486ee3ae74de",
+        "status": "completed",
+        "topic": "other"
+      },
+      "fields": [
+        "topic",
+        "severity"
+      ],
+      "review_id": "e1510507-94de-491f-8b38-c49274dddb3a",
+      "verifier": {
+        "entities": [],
+        "evidence_quote": "It is not working",
+        "intent": "complaint",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": true,
+        "review_id": "e1510507-94de-491f-8b38-c49274dddb3a",
+        "sentiment": -1,
+        "severity": 4,
+        "source_sha256": "30706927bb9e39963d58829940accec076da225863bc0363ed40486ee3ae74de",
+        "status": "completed",
+        "topic": "playback"
+      }
+    },
+    {
+      "enricher": {
+        "entities": [
+          "app"
+        ],
+        "evidence_quote": "Beautiful app",
+        "intent": "praise",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "af9079a1-0e10-464c-b4e4-eca43a2729aa",
+        "sentiment": 0.9,
+        "severity": 1,
+        "source_sha256": "1dbad3e40ea3babd5411a2ef21c4d4d4a0693e5a811bfd60cb098a8fc4ba984f",
+        "status": "completed",
+        "topic": "usability"
+      },
+      "fields": [
+        "topic"
+      ],
+      "review_id": "af9079a1-0e10-464c-b4e4-eca43a2729aa",
+      "verifier": {
+        "entities": [],
+        "evidence_quote": "Five star Beautiful app",
+        "intent": "praise",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "af9079a1-0e10-464c-b4e4-eca43a2729aa",
+        "sentiment": 1,
+        "severity": 1,
+        "source_sha256": "1dbad3e40ea3babd5411a2ef21c4d4d4a0693e5a811bfd60cb098a8fc4ba984f",
+        "status": "completed",
+        "topic": "other"
+      }
+    },
+    {
+      "enricher": {
+        "entities": [
+          "ads"
+        ],
+        "evidence_quote": "only the adds should not come",
+        "intent": "request",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "6557a43a-0565-43f2-92c9-f6b9a800a486",
+        "sentiment": 0.4,
+        "severity": 1,
+        "source_sha256": "81e59b2158e898e3dad36e1f6697d3f9a5beec135e4b63c811182d9b72901a91",
+        "status": "completed",
+        "topic": "usability"
+      },
+      "fields": [
+        "intent",
+        "severity"
+      ],
+      "review_id": "6557a43a-0565-43f2-92c9-f6b9a800a486",
+      "verifier": {
+        "entities": [
+          "ads"
+        ],
+        "evidence_quote": "only the adds should not come",
+        "intent": "complaint",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "6557a43a-0565-43f2-92c9-f6b9a800a486",
+        "sentiment": -0.4,
+        "severity": 2,
+        "source_sha256": "81e59b2158e898e3dad36e1f6697d3f9a5beec135e4b63c811182d9b72901a91",
+        "status": "completed",
+        "topic": "usability"
+      }
+    },
+    {
+      "enricher": {
+        "entities": [
+          "country music"
+        ],
+        "evidence_quote": "Love country music",
+        "intent": "praise",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "dd3ea70e-c683-4922-adcc-ed09f186c6fb",
+        "sentiment": 0.7,
+        "severity": 1,
+        "source_sha256": "3f3e49055672f58a5d4dbdfc2a5491d3c1ff4e3613ce5734313307b3a2946630",
+        "status": "completed",
+        "topic": "other"
+      },
+      "fields": [
+        "topic"
+      ],
+      "review_id": "dd3ea70e-c683-4922-adcc-ed09f186c6fb",
+      "verifier": {
+        "entities": [
+          "country music"
+        ],
+        "evidence_quote": "Love country music",
+        "intent": "praise",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "dd3ea70e-c683-4922-adcc-ed09f186c6fb",
+        "sentiment": 0.7,
+        "severity": 1,
+        "source_sha256": "3f3e49055672f58a5d4dbdfc2a5491d3c1ff4e3613ce5734313307b3a2946630",
+        "status": "completed",
+        "topic": "catalog"
+      }
+    },
+    {
+      "enricher": {
+        "entities": [],
+        "evidence_quote": "I hate it... it was malfunctioning and when I tried uninstalling it.. it didn't work.",
+        "intent": "cancellation",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "0e8ec320-a863-4d1c-9f98-1023626194da",
+        "sentiment": -0.9,
+        "severity": 2,
+        "source_sha256": "5be2a5e1dae159b31805f723b49938053d7b18ffac583f97ba942ac12ac32b46",
+        "status": "completed",
+        "topic": "usability"
+      },
+      "fields": [
+        "topic",
+        "severity"
+      ],
+      "review_id": "0e8ec320-a863-4d1c-9f98-1023626194da",
+      "verifier": {
+        "entities": [],
+        "evidence_quote": "it was malfunctioning and when I tried uninstalling it.. it didn't work.",
+        "intent": "cancellation",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "0e8ec320-a863-4d1c-9f98-1023626194da",
+        "sentiment": -0.8,
+        "severity": 3,
+        "source_sha256": "5be2a5e1dae159b31805f723b49938053d7b18ffac583f97ba942ac12ac32b46",
+        "status": "completed",
+        "topic": "other"
+      }
+    },
+    {
+      "enricher": {
+        "entities": [
+          "music",
+          "songs"
+        ],
+        "evidence_quote": "Great app, always has up to date music and I can generally always find the songs I'm looking for.",
+        "intent": "praise",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "4ce308ce-1a9a-4a9c-9ac2-55ca4a418218",
+        "sentiment": 0.8,
+        "severity": 1,
+        "source_sha256": "f52d1518d48e75d43e2ba33d69cb590bf983cf1e7477b4f0b697523c5e557b37",
+        "status": "completed",
+        "topic": "catalog"
+      },
+      "fields": [
+        "topic"
+      ],
+      "review_id": "4ce308ce-1a9a-4a9c-9ac2-55ca4a418218",
+      "verifier": {
+        "entities": [
+          "ads",
+          "monthly subscription"
+        ],
+        "evidence_quote": "I love listening to music while commuting and Spotify helps make the journey less boring.",
+        "intent": "praise",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "4ce308ce-1a9a-4a9c-9ac2-55ca4a418218",
+        "sentiment": 0.9,
+        "severity": 1,
+        "source_sha256": "f52d1518d48e75d43e2ba33d69cb590bf983cf1e7477b4f0b697523c5e557b37",
+        "status": "completed",
+        "topic": "usability"
+      }
+    },
+    {
+      "enricher": {
+        "entities": [
+          "ads"
+        ],
+        "evidence_quote": "Prefer less ads",
+        "intent": "complaint",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "3e033276-7302-476d-a47e-a444b8845145",
+        "sentiment": -0.3,
+        "severity": 2,
+        "source_sha256": "918c91532fcc7c92efae8ecc566881d740494ad861528a6e7b0025898cc221c6",
+        "status": "completed",
+        "topic": "usability"
+      },
+      "fields": [
+        "intent",
+        "severity"
+      ],
+      "review_id": "3e033276-7302-476d-a47e-a444b8845145",
+      "verifier": {
+        "entities": [
+          "music options",
+          "ads"
+        ],
+        "evidence_quote": "Prefer less ads",
+        "intent": "request",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "3e033276-7302-476d-a47e-a444b8845145",
+        "sentiment": 0.2,
+        "severity": 1,
+        "source_sha256": "918c91532fcc7c92efae8ecc566881d740494ad861528a6e7b0025898cc221c6",
+        "status": "completed",
+        "topic": "usability"
+      }
+    },
+    {
+      "enricher": {
+        "entities": [
+          "liked songs playlist",
+          "albums",
+          "internet connection"
+        ],
+        "evidence_quote": "My Spotify has stopped letting me open my liked songs Playlist and opening albums that i havent listened to in the past",
+        "intent": "complaint",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "0cc2eac8-570b-4d37-a98e-cf43e6686a58",
+        "sentiment": -0.8,
+        "severity": 3,
+        "source_sha256": "566bbd653efbe37197763fec0320426296ace764f395a23d49dcb21e7d93b247",
+        "status": "completed",
+        "topic": "usability"
+      },
+      "fields": [
+        "topic"
+      ],
+      "review_id": "0cc2eac8-570b-4d37-a98e-cf43e6686a58",
+      "verifier": {
+        "entities": [
+          "liked songs playlist",
+          "albums",
+          "internet connection",
+          "wifi"
+        ],
+        "evidence_quote": "My Spotify has stopped letting me open my liked songs Playlist and opening albums that i havent listened to in the past",
+        "intent": "complaint",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "0cc2eac8-570b-4d37-a98e-cf43e6686a58",
+        "sentiment": -0.8,
+        "severity": 3,
+        "source_sha256": "566bbd653efbe37197763fec0320426296ace764f395a23d49dcb21e7d93b247",
+        "status": "completed",
+        "topic": "catalog"
+      }
+    },
+    {
+      "enricher": {
+        "entities": [
+          "podcast"
+        ],
+        "evidence_quote": "Podcast superb",
+        "intent": "praise",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "56a99df4-9c60-4d07-9669-30521aef8fd0",
+        "sentiment": 0.8,
+        "severity": 1,
+        "source_sha256": "62c8f863e2205b332497a96650328baa74f3892ef01f4a7690130d3cc252d5a5",
+        "status": "completed",
+        "topic": "catalog"
+      },
+      "fields": [
+        "topic"
+      ],
+      "review_id": "56a99df4-9c60-4d07-9669-30521aef8fd0",
+      "verifier": {
+        "entities": [
+          "podcasts"
+        ],
+        "evidence_quote": "Podcast superb",
+        "intent": "praise",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "56a99df4-9c60-4d07-9669-30521aef8fd0",
+        "sentiment": 0.8,
+        "severity": 1,
+        "source_sha256": "62c8f863e2205b332497a96650328baa74f3892ef01f4a7690130d3cc252d5a5",
+        "status": "completed",
+        "topic": "other"
+      }
+    },
+    {
+      "enricher": {
+        "entities": [],
+        "evidence_quote": "very very disappointing",
+        "intent": "unclear",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "7497bb0e-b5c3-4f1e-9bab-c7cc7526e64c",
+        "sentiment": -0.7,
+        "severity": 2,
+        "source_sha256": "65043a680d67a64027f4f03f544b4d5b17e07ec91d1eedc9b4921a61488e2a90",
+        "status": "completed",
+        "topic": "other"
+      },
+      "fields": [
+        "intent"
+      ],
+      "review_id": "7497bb0e-b5c3-4f1e-9bab-c7cc7526e64c",
+      "verifier": {
+        "entities": [],
+        "evidence_quote": "very very disappointing",
+        "intent": "complaint",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "7497bb0e-b5c3-4f1e-9bab-c7cc7526e64c",
+        "sentiment": -0.7,
+        "severity": 2,
+        "source_sha256": "65043a680d67a64027f4f03f544b4d5b17e07ec91d1eedc9b4921a61488e2a90",
+        "status": "completed",
+        "topic": "other"
+      }
+    },
+    {
+      "enricher": {
+        "entities": [
+          "liked songs library",
+          "support contact"
+        ],
+        "evidence_quote": "My library of liked songs is not visible i have been trying to contact you and nothing has happened",
+        "intent": "complaint",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "a8293fb8-8270-4a15-a4ba-7182d8b090f6",
+        "sentiment": -0.8,
+        "severity": 3,
+        "source_sha256": "1e9615300695590f46226b5105580ba9726e6b818f1882526be4bf0afe8b3feb",
+        "status": "completed",
+        "topic": "support"
+      },
+      "fields": [
+        "topic"
+      ],
+      "review_id": "a8293fb8-8270-4a15-a4ba-7182d8b090f6",
+      "verifier": {
+        "entities": [
+          "liked songs",
+          "support"
+        ],
+        "evidence_quote": "My library of liked songs is not visible",
+        "intent": "complaint",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "a8293fb8-8270-4a15-a4ba-7182d8b090f6",
+        "sentiment": -0.9,
+        "severity": 3,
+        "source_sha256": "1e9615300695590f46226b5105580ba9726e6b818f1882526be4bf0afe8b3feb",
+        "status": "completed",
+        "topic": "catalog"
+      }
+    },
+    {
+      "enricher": {
+        "entities": [
+          "car playback",
+          "autoplay"
+        ],
+        "evidence_quote": "Spotify turns on in my car even when it's not running. I followed the (outdated) instructions on how to keep Spotify turned off but it starts playing anyway. Uninstalling from my phone for the last time.",
+        "intent": "cancellation",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "9849559e-4ed3-418e-81de-2878ba417413",
+        "sentiment": -1,
+        "severity": 3,
+        "source_sha256": "cc8158fda52d7a777f1ce29eb530ea953a9bcd564d83385faf3fe95a7f0694d7",
+        "status": "completed",
+        "topic": "playback"
+      },
+      "fields": [
+        "topic"
+      ],
+      "review_id": "9849559e-4ed3-418e-81de-2878ba417413",
+      "verifier": {
+        "entities": [
+          "Spotify",
+          "car playback",
+          "navigation",
+          "playlist"
+        ],
+        "evidence_quote": "Spotify turns on in my car even when it's not running. I followed the (outdated) instructions on how to keep Spotify turned off but it starts playing anyway. Uninstalling from my phone for the last time.",
+        "intent": "cancellation",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "9849559e-4ed3-418e-81de-2878ba417413",
+        "sentiment": -1,
+        "severity": 3,
+        "source_sha256": "cc8158fda52d7a777f1ce29eb530ea953a9bcd564d83385faf3fe95a7f0694d7",
+        "status": "completed",
+        "topic": "usability"
+      }
+    },
+    {
+      "enricher": {
+        "entities": [],
+        "evidence_quote": "Likea much the app",
+        "intent": "unclear",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": true,
+        "review_id": "54468814-f0f7-4bdb-921a-72675ab2cc50",
+        "sentiment": 0,
+        "severity": 1,
+        "source_sha256": "9badaa01e3cc960930673a97ecc19ae1a3196f57abc9255a7954731636081388",
+        "status": "completed",
+        "topic": "other"
+      },
+      "fields": [
+        "intent"
+      ],
+      "review_id": "54468814-f0f7-4bdb-921a-72675ab2cc50",
+      "verifier": {
+        "entities": [],
+        "evidence_quote": "Likea much the app",
+        "intent": "praise",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": true,
+        "review_id": "54468814-f0f7-4bdb-921a-72675ab2cc50",
+        "sentiment": 0.7,
+        "severity": 1,
+        "source_sha256": "9badaa01e3cc960930673a97ecc19ae1a3196f57abc9255a7954731636081388",
+        "status": "completed",
+        "topic": "other"
+      }
+    },
+    {
+      "enricher": {
+        "cache_source_id": "67f99d97-dc24-47a4-b216-12f075505bbf",
+        "entities": [
+          "music"
+        ],
+        "evidence_quote": "Good music",
+        "intent": "praise",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "4921203e-9508-48cd-9798-0ecda0cf9022",
+        "sentiment": 0.6,
+        "severity": 1,
+        "source_sha256": "048183fbfa7ed46d1346744eca334652edc4c2d58289554857469f2b616f4bf5",
+        "status": "completed",
+        "topic": "catalog"
+      },
+      "fields": [
+        "topic"
+      ],
+      "review_id": "4921203e-9508-48cd-9798-0ecda0cf9022",
+      "verifier": {
+        "entities": [],
+        "evidence_quote": "Good music",
+        "intent": "praise",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "4921203e-9508-48cd-9798-0ecda0cf9022",
+        "sentiment": 1,
+        "severity": 1,
+        "source_sha256": "048183fbfa7ed46d1346744eca334652edc4c2d58289554857469f2b616f4bf5",
+        "status": "completed",
+        "topic": "other"
+      }
+    },
+    {
+      "enricher": {
+        "entities": [
+          "premium plan",
+          "offline downloads"
+        ],
+        "evidence_quote": "Let us listen all online with the premium plan.",
+        "intent": "request",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "38b9d652-d97d-4b4d-8585-c8828c57a561",
+        "sentiment": -0.5,
+        "severity": 1,
+        "source_sha256": "bb6454ce58d7760b0ffda680ed42790f2e1707e1e8ed7092fdc5f054b7fc7b92",
+        "status": "completed",
+        "topic": "downloads"
+      },
+      "fields": [
+        "intent",
+        "severity"
+      ],
+      "review_id": "38b9d652-d97d-4b4d-8585-c8828c57a561",
+      "verifier": {
+        "entities": [
+          "Premium",
+          "offline downloads"
+        ],
+        "evidence_quote": "I hate download offline to listen because my brother is using the spotify",
+        "intent": "complaint",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "38b9d652-d97d-4b4d-8585-c8828c57a561",
+        "sentiment": -0.7,
+        "severity": 3,
+        "source_sha256": "bb6454ce58d7760b0ffda680ed42790f2e1707e1e8ed7092fdc5f054b7fc7b92",
+        "status": "completed",
+        "topic": "downloads"
+      }
+    },
+    {
+      "enricher": {
+        "entities": [],
+        "evidence_quote": "*Wothout words*",
+        "intent": "praise",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": true,
+        "review_id": "ba47612c-6dfa-4d31-9710-a5ab0ed86c54",
+        "sentiment": 0.6,
+        "severity": 1,
+        "source_sha256": "b5c4136ed9a03e1967da6218a1c5b40e9a099ed2fe3eb779849c6cf46b6ba303",
+        "status": "completed",
+        "topic": "other"
+      },
+      "fields": [
+        "intent"
+      ],
+      "review_id": "ba47612c-6dfa-4d31-9710-a5ab0ed86c54",
+      "verifier": {
+        "entities": [],
+        "evidence_quote": "*Wothout words*",
+        "intent": "unclear",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": true,
+        "review_id": "ba47612c-6dfa-4d31-9710-a5ab0ed86c54",
+        "sentiment": 0,
+        "severity": 1,
+        "source_sha256": "b5c4136ed9a03e1967da6218a1c5b40e9a099ed2fe3eb779849c6cf46b6ba303",
+        "status": "completed",
+        "topic": "other"
+      }
+    },
+    {
+      "enricher": {
+        "entities": [
+          "registration"
+        ],
+        "evidence_quote": "This app is takes lots of time to registration I'm very sick Simply I uninstalled it!",
+        "intent": "cancellation",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "5c1371f1-120b-442c-a621-9656c8811ba0",
+        "sentiment": -0.8,
+        "severity": 3,
+        "source_sha256": "3c52d46d347f0cdf2180b367efb58692233c86c5b7afd995a6a9ad56d7b4bf65",
+        "status": "completed",
+        "topic": "access"
+      },
+      "fields": [
+        "topic"
+      ],
+      "review_id": "5c1371f1-120b-442c-a621-9656c8811ba0",
+      "verifier": {
+        "entities": [
+          "registration"
+        ],
+        "evidence_quote": "This app is takes lots of time to registration I'm very sick Simply I uninstalled it!",
+        "intent": "cancellation",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "5c1371f1-120b-442c-a621-9656c8811ba0",
+        "sentiment": -0.8,
+        "severity": 3,
+        "source_sha256": "3c52d46d347f0cdf2180b367efb58692233c86c5b7afd995a6a9ad56d7b4bf65",
+        "status": "completed",
+        "topic": "usability"
+      }
+    },
+    {
+      "enricher": {
+        "entities": [
+          "Custer by Slipknot",
+          "I Cant Sleep Podcast"
+        ],
+        "evidence_quote": "Cant go a day without this,.. Its almost sad. Well, almost.",
+        "intent": "praise",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "a58f33ef-5fc3-498e-b7ba-8ae60db557cc",
+        "sentiment": 0.8,
+        "severity": 1,
+        "source_sha256": "47c8f4116f9a8d55882833a31e4dfedc38ecc3c13dc0d97ad3cdee4610078ce5",
+        "status": "completed",
+        "topic": "other"
+      },
+      "fields": [
+        "topic"
+      ],
+      "review_id": "a58f33ef-5fc3-498e-b7ba-8ae60db557cc",
+      "verifier": {
+        "entities": [
+          "Custer",
+          "Slipknot",
+          "I Cant Sleep Podcast"
+        ],
+        "evidence_quote": "Cant go a day without this,.. Its almost sad. Well, almost. My favourite song is custer by slipknot, and i really like the I Cant Sleep Podcast. Really recommend those!",
+        "intent": "praise",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "a58f33ef-5fc3-498e-b7ba-8ae60db557cc",
+        "sentiment": 0.9,
+        "severity": 1,
+        "source_sha256": "47c8f4116f9a8d55882833a31e4dfedc38ecc3c13dc0d97ad3cdee4610078ce5",
+        "status": "completed",
+        "topic": "catalog"
+      }
+    },
+    {
+      "enricher": {
+        "entities": [
+          "premium",
+          "playlist",
+          "random song"
+        ],
+        "evidence_quote": "it needs premium",
+        "intent": "complaint",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "c518528c-bd68-42c3-a391-1617aad2e122",
+        "sentiment": -1,
+        "severity": 3,
+        "source_sha256": "bad0c15ab1a093147d8f3e943ded4e87ab5f56efc911f041cfec6c2e9faca2f0",
+        "status": "completed",
+        "topic": "billing"
+      },
+      "fields": [
+        "topic"
+      ],
+      "review_id": "c518528c-bd68-42c3-a391-1617aad2e122",
+      "verifier": {
+        "entities": [
+          "Premium paywall",
+          "playlist",
+          "random song playback"
+        ],
+        "evidence_quote": "I hate it everytime i click something it needs premium and the playlist im playing after the one song ended theres this random song thats gonna play even its not in my playlist.",
+        "intent": "complaint",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "c518528c-bd68-42c3-a391-1617aad2e122",
+        "sentiment": -0.8,
+        "severity": 3,
+        "source_sha256": "bad0c15ab1a093147d8f3e943ded4e87ab5f56efc911f041cfec6c2e9faca2f0",
+        "status": "completed",
+        "topic": "playback"
+      }
+    },
+    {
+      "enricher": {
+        "entities": [],
+        "evidence_quote": "Plays all my music and then some. Sounds very goog.",
+        "intent": "praise",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "d51c9367-3a82-408c-999f-df058dbb62d1",
+        "sentiment": 0.8,
+        "severity": 1,
+        "source_sha256": "7231ba8af828c39f45da0b4ad49d607560e9237ff33829d18b416282898c57cd",
+        "status": "completed",
+        "topic": "other"
+      },
+      "fields": [
+        "topic"
+      ],
+      "review_id": "d51c9367-3a82-408c-999f-df058dbb62d1",
+      "verifier": {
+        "entities": [],
+        "evidence_quote": "Plays all my music and then some. Sounds very goog.",
+        "intent": "praise",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "d51c9367-3a82-408c-999f-df058dbb62d1",
+        "sentiment": 0.8,
+        "severity": 1,
+        "source_sha256": "7231ba8af828c39f45da0b4ad49d607560e9237ff33829d18b416282898c57cd",
+        "status": "completed",
+        "topic": "playback"
+      }
+    },
+    {
+      "enricher": {
+        "entities": [
+          "song file size",
+          "account",
+          "devices"
+        ],
+        "evidence_quote": "Need less MB for a song.",
+        "intent": "request",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "6f8298d6-2e55-40c9-990d-c1b5ee8fa91b",
+        "sentiment": 0.6,
+        "severity": 1,
+        "source_sha256": "d187a6733b4e76b3b38697e1200de468d8f198d00f8b14f1080065ea7e1d2fff",
+        "status": "completed",
+        "topic": "downloads"
+      },
+      "fields": [
+        "topic"
+      ],
+      "review_id": "6f8298d6-2e55-40c9-990d-c1b5ee8fa91b",
+      "verifier": {
+        "entities": [
+          "data usage"
+        ],
+        "evidence_quote": "Need less MB for a song.",
+        "intent": "request",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "6f8298d6-2e55-40c9-990d-c1b5ee8fa91b",
+        "sentiment": 0,
+        "severity": 1,
+        "source_sha256": "d187a6733b4e76b3b38697e1200de468d8f198d00f8b14f1080065ea7e1d2fff",
+        "status": "completed",
+        "topic": "other"
+      }
+    },
+    {
+      "enricher": {
+        "cache_source_id": "90935207-f719-4d8e-8266-f81fe0d21763",
+        "entities": [],
+        "evidence_quote": "Osm",
+        "intent": "praise",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": true,
+        "review_id": "ac35ac01-4033-47d3-9375-0928fd9ca553",
+        "sentiment": 0.5,
+        "severity": 1,
+        "source_sha256": "a6af88a99835792415e7995a64edd6aa8be20172d4305e5fd19573516184936a",
+        "status": "completed",
+        "topic": "other"
+      },
+      "fields": [
+        "intent"
+      ],
+      "review_id": "ac35ac01-4033-47d3-9375-0928fd9ca553",
+      "verifier": {
+        "entities": [],
+        "evidence_quote": "Osm",
+        "intent": "unclear",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": true,
+        "review_id": "ac35ac01-4033-47d3-9375-0928fd9ca553",
+        "sentiment": 0,
+        "severity": 1,
+        "source_sha256": "a6af88a99835792415e7995a64edd6aa8be20172d4305e5fd19573516184936a",
+        "status": "completed",
+        "topic": "other"
+      }
+    },
+    {
+      "enricher": {
+        "entities": [
+          "music"
+        ],
+        "evidence_quote": "Good music for everyone and tastes",
+        "intent": "praise",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "58dcef89-f39a-41ec-9415-12152804bae4",
+        "sentiment": 0.8,
+        "severity": 1,
+        "source_sha256": "1844e63d942527f459df979d2e5ce0e127df0e707b9360a1eb7fb553fd57aea0",
+        "status": "completed",
+        "topic": "other"
+      },
+      "fields": [
+        "topic"
+      ],
+      "review_id": "58dcef89-f39a-41ec-9415-12152804bae4",
+      "verifier": {
+        "entities": [
+          "music"
+        ],
+        "evidence_quote": "Good music for everyone and tastes",
+        "intent": "praise",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "58dcef89-f39a-41ec-9415-12152804bae4",
+        "sentiment": 0.7,
+        "severity": 1,
+        "source_sha256": "1844e63d942527f459df979d2e5ce0e127df0e707b9360a1eb7fb553fd57aea0",
+        "status": "completed",
+        "topic": "catalog"
+      }
+    },
+    {
+      "enricher": {
+        "entities": [],
+        "evidence_quote": "🤘🤘",
+        "intent": "unclear",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": true,
+        "review_id": "b8c5e726-1e86-49a7-8d64-1b697f109614",
+        "sentiment": 0,
+        "severity": 1,
+        "source_sha256": "cf054b439b1553d995eb0f38e551396ceaf89029cb784e957e053f0d6e9a0f7f",
+        "status": "completed",
+        "topic": "other"
+      },
+      "fields": [
+        "intent"
+      ],
+      "review_id": "b8c5e726-1e86-49a7-8d64-1b697f109614",
+      "verifier": {
+        "entities": [],
+        "evidence_quote": "🤘🤘",
+        "intent": "praise",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "b8c5e726-1e86-49a7-8d64-1b697f109614",
+        "sentiment": 0.5,
+        "severity": 1,
+        "source_sha256": "cf054b439b1553d995eb0f38e551396ceaf89029cb784e957e053f0d6e9a0f7f",
+        "status": "completed",
+        "topic": "other"
+      }
+    },
+    {
+      "enricher": {
+        "entities": [
+          "liked songs"
+        ],
+        "evidence_quote": "i cant open my liked songs",
+        "intent": "complaint",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "b2d166be-e137-4429-b0cf-20db7b163f6e",
+        "sentiment": -0.7,
+        "severity": 3,
+        "source_sha256": "1146e01435c3beb048d7ece9b0c827c0e8aaca514ebe989d48afaba0e2d1a570",
+        "status": "completed",
+        "topic": "usability"
+      },
+      "fields": [
+        "topic"
+      ],
+      "review_id": "b2d166be-e137-4429-b0cf-20db7b163f6e",
+      "verifier": {
+        "entities": [
+          "liked songs"
+        ],
+        "evidence_quote": "i cant open my liked songs",
+        "intent": "complaint",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "b2d166be-e137-4429-b0cf-20db7b163f6e",
+        "sentiment": -0.7,
+        "severity": 3,
+        "source_sha256": "1146e01435c3beb048d7ece9b0c827c0e8aaca514ebe989d48afaba0e2d1a570",
+        "status": "completed",
+        "topic": "catalog"
+      }
+    },
+    {
+      "enricher": {
+        "entities": [
+          "premium",
+          "customization",
+          "listening options"
+        ],
+        "evidence_quote": "I love Spotify so many more options (premium is so worth paying for too) and different ways to listen to music everything is customized to your liking",
+        "intent": "praise",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "618481c1-bf97-4a25-9dcb-0f2ef1ebb08d",
+        "sentiment": 0.9,
+        "severity": 1,
+        "source_sha256": "bbf49359d7510519db00be93a4b2cfe4496907eaec149a7c88c46b87b75b31c5",
+        "status": "completed",
+        "topic": "usability"
+      },
+      "fields": [
+        "topic"
+      ],
+      "review_id": "618481c1-bf97-4a25-9dcb-0f2ef1ebb08d",
+      "verifier": {
+        "entities": [
+          "Spotify",
+          "premium"
+        ],
+        "evidence_quote": "I love Spotify so many more options (premium is so worth paying for too) and different ways to listen to music everything is customized to your liking",
+        "intent": "praise",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "618481c1-bf97-4a25-9dcb-0f2ef1ebb08d",
+        "sentiment": 0.9,
+        "severity": 1,
+        "source_sha256": "bbf49359d7510519db00be93a4b2cfe4496907eaec149a7c88c46b87b75b31c5",
+        "status": "completed",
+        "topic": "other"
+      }
+    },
+    {
+      "enricher": {
+        "entities": [
+          "free music"
+        ],
+        "evidence_quote": "Great free music",
+        "intent": "praise",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "53e56670-1519-4ed6-b923-32a424186b55",
+        "sentiment": 0.8,
+        "severity": 1,
+        "source_sha256": "bed5559f756561c4a706e91f5dbad2b928a0a74ceaa69ddabdaff519ffc092e9",
+        "status": "completed",
+        "topic": "catalog"
+      },
+      "fields": [
+        "topic"
+      ],
+      "review_id": "53e56670-1519-4ed6-b923-32a424186b55",
+      "verifier": {
+        "entities": [],
+        "evidence_quote": "Great free music",
+        "intent": "praise",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "53e56670-1519-4ed6-b923-32a424186b55",
+        "sentiment": 0.9,
+        "severity": 1,
+        "source_sha256": "bed5559f756561c4a706e91f5dbad2b928a0a74ceaa69ddabdaff519ffc092e9",
+        "status": "completed",
+        "topic": "other"
+      }
+    },
+    {
+      "enricher": {
+        "entities": [
+          "song selection",
+          "skip controls"
+        ],
+        "evidence_quote": "I cant even choose what song I want or even skip whenever I want.",
+        "intent": "complaint",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "a85c1bf7-cc96-4b6a-9516-91cc13aee1a9",
+        "sentiment": -0.9,
+        "severity": 3,
+        "source_sha256": "c4c34e6941052dda689ec02ffe9fa0989e243620cda157afb6d91f73b31d3fe3",
+        "status": "completed",
+        "topic": "usability"
+      },
+      "fields": [
+        "topic"
+      ],
+      "review_id": "a85c1bf7-cc96-4b6a-9516-91cc13aee1a9",
+      "verifier": {
+        "entities": [
+          "new update",
+          "song selection",
+          "skip controls"
+        ],
+        "evidence_quote": "I cant even choose what song I want or even skip whenever I want.",
+        "intent": "complaint",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "a85c1bf7-cc96-4b6a-9516-91cc13aee1a9",
+        "sentiment": -0.8,
+        "severity": 3,
+        "source_sha256": "c4c34e6941052dda689ec02ffe9fa0989e243620cda157afb6d91f73b31d3fe3",
+        "status": "completed",
+        "topic": "playback"
+      }
+    },
+    {
+      "enricher": {
+        "entities": [
+          "music"
+        ],
+        "evidence_quote": "I play any I want music this is so cool",
+        "intent": "praise",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "a00b48aa-99b3-4de9-8a2a-0cb59a39a17f",
+        "sentiment": 0.8,
+        "severity": 1,
+        "source_sha256": "0ef55af47360c1e03a92665f1299f89a432232f28be57d0f3bf2d510f3423bcf",
+        "status": "completed",
+        "topic": "usability"
+      },
+      "fields": [
+        "topic"
+      ],
+      "review_id": "a00b48aa-99b3-4de9-8a2a-0cb59a39a17f",
+      "verifier": {
+        "entities": [],
+        "evidence_quote": "I play any I want music this is so cool",
+        "intent": "praise",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "a00b48aa-99b3-4de9-8a2a-0cb59a39a17f",
+        "sentiment": 0.9,
+        "severity": 1,
+        "source_sha256": "0ef55af47360c1e03a92665f1299f89a432232f28be57d0f3bf2d510f3423bcf",
+        "status": "completed",
+        "topic": "other"
+      }
+    },
+    {
+      "enricher": {
+        "entities": [],
+        "evidence_quote": "Doesn't have everything I was looking for",
+        "intent": "complaint",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "43829f9c-f737-40d7-8efb-5cb855961afe",
+        "sentiment": -0.2,
+        "severity": 3,
+        "source_sha256": "dcb4b0534552229a61ed85c617cda9d950b40686508c34d9922b24caf4a496f1",
+        "status": "completed",
+        "topic": "catalog"
+      },
+      "fields": [
+        "severity"
+      ],
+      "review_id": "43829f9c-f737-40d7-8efb-5cb855961afe",
+      "verifier": {
+        "entities": [
+          "catalog"
+        ],
+        "evidence_quote": "Doesn't have everything I was looking for, but it has way more than I was expecting.",
+        "intent": "complaint",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "43829f9c-f737-40d7-8efb-5cb855961afe",
+        "sentiment": -0.2,
+        "severity": 1,
+        "source_sha256": "dcb4b0534552229a61ed85c617cda9d950b40686508c34d9922b24caf4a496f1",
+        "status": "completed",
+        "topic": "catalog"
+      }
+    },
+    {
+      "enricher": {
+        "entities": [],
+        "evidence_quote": "cant even listen to the damn song i want.",
+        "intent": "complaint",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "73a5a9ca-f309-44c7-a866-dde6d1c7b697",
+        "sentiment": -0.7,
+        "severity": 3,
+        "source_sha256": "d898bfcf75797391a73e20991e74caaab7f7a1eb9f057ad9f963fe17cbf907f8",
+        "status": "completed",
+        "topic": "playback"
+      },
+      "fields": [
+        "topic"
+      ],
+      "review_id": "73a5a9ca-f309-44c7-a866-dde6d1c7b697",
+      "verifier": {
+        "entities": [
+          "song"
+        ],
+        "evidence_quote": "cant even listen to the damn song i want.",
+        "intent": "complaint",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "73a5a9ca-f309-44c7-a866-dde6d1c7b697",
+        "sentiment": -0.8,
+        "severity": 3,
+        "source_sha256": "d898bfcf75797391a73e20991e74caaab7f7a1eb9f057ad9f963fe17cbf907f8",
+        "status": "completed",
+        "topic": "catalog"
+      }
+    },
+    {
+      "enricher": {
+        "entities": [
+          "Premium",
+          "3 months",
+          "$10.00"
+        ],
+        "evidence_quote": "Love the premium for 3 months @ $10.00",
+        "intent": "praise",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "8719f4bc-d007-457b-aa56-1d70f4eaf4fc",
+        "sentiment": 0.8,
+        "severity": 1,
+        "source_sha256": "1ed2d246f8d0dab4f28da69c836c71ca92c5cc158ecc8a8c80e4affc5fc395e2",
+        "status": "completed",
+        "topic": "billing"
+      },
+      "fields": [
+        "topic"
+      ],
+      "review_id": "8719f4bc-d007-457b-aa56-1d70f4eaf4fc",
+      "verifier": {
+        "entities": [
+          "Premium",
+          "3 months",
+          "$10.00"
+        ],
+        "evidence_quote": "Love the premium for 3 months @ $10.00",
+        "intent": "praise",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "8719f4bc-d007-457b-aa56-1d70f4eaf4fc",
+        "sentiment": 0.8,
+        "severity": 1,
+        "source_sha256": "1ed2d246f8d0dab4f28da69c836c71ca92c5cc158ecc8a8c80e4affc5fc395e2",
+        "status": "completed",
+        "topic": "other"
+      }
+    },
+    {
+      "enricher": {
+        "entities": [],
+        "evidence_quote": "😁😊 happy etc.",
+        "intent": "praise",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "bc18a030-1505-465d-8a6f-f89b4e059a6c",
+        "sentiment": 0.8,
+        "severity": 1,
+        "source_sha256": "9914e03b456e5436b6401aac1eeb4fb744afb2c478ca2e2286e8612f26ae98dd",
+        "status": "completed",
+        "topic": "other"
+      },
+      "fields": [
+        "intent"
+      ],
+      "review_id": "bc18a030-1505-465d-8a6f-f89b4e059a6c",
+      "verifier": {
+        "entities": [],
+        "evidence_quote": "😁😊 happy etc.",
+        "intent": "unclear",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "bc18a030-1505-465d-8a6f-f89b4e059a6c",
+        "sentiment": 0.5,
+        "severity": 1,
+        "source_sha256": "9914e03b456e5436b6401aac1eeb4fb744afb2c478ca2e2286e8612f26ae98dd",
+        "status": "completed",
+        "topic": "other"
+      }
+    },
+    {
+      "enricher": {
+        "entities": [
+          "app"
+        ],
+        "evidence_quote": "Not working since yesterday",
+        "intent": "complaint",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": true,
+        "review_id": "59ad7925-23b3-44ea-8f56-63e3f253dc5d",
+        "sentiment": -0.5,
+        "severity": 3,
+        "source_sha256": "1c1f81355103d193f2098ea7b43d97930406adbb24400461a4cee954107430b6",
+        "status": "completed",
+        "topic": "other"
+      },
+      "fields": [
+        "topic"
+      ],
+      "review_id": "59ad7925-23b3-44ea-8f56-63e3f253dc5d",
+      "verifier": {
+        "entities": [],
+        "evidence_quote": "Not working since yesterday",
+        "intent": "complaint",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": true,
+        "review_id": "59ad7925-23b3-44ea-8f56-63e3f253dc5d",
+        "sentiment": -0.6,
+        "severity": 3,
+        "source_sha256": "1c1f81355103d193f2098ea7b43d97930406adbb24400461a4cee954107430b6",
+        "status": "completed",
+        "topic": "playback"
+      }
+    },
+    {
+      "enricher": {
+        "entities": [
+          "OTP"
+        ],
+        "evidence_quote": "Nice otp",
+        "intent": "praise",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": true,
+        "review_id": "bd40366c-5f07-4ca1-a018-68b78c6655e4",
+        "sentiment": 0.3,
+        "severity": 1,
+        "source_sha256": "4f878866875014a33d4889dbb9e63c4490a71fefd5f443aae45140d62b63fbdf",
+        "status": "completed",
+        "topic": "access"
+      },
+      "fields": [
+        "topic",
+        "intent"
+      ],
+      "review_id": "bd40366c-5f07-4ca1-a018-68b78c6655e4",
+      "verifier": {
+        "entities": [
+          "OTP"
+        ],
+        "evidence_quote": "Nice otp",
+        "intent": "unclear",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": true,
+        "review_id": "bd40366c-5f07-4ca1-a018-68b78c6655e4",
+        "sentiment": 0.0,
+        "severity": 1,
+        "source_sha256": "4f878866875014a33d4889dbb9e63c4490a71fefd5f443aae45140d62b63fbdf",
+        "status": "completed",
+        "topic": "other"
+      }
+    },
+    {
+      "enricher": {
+        "entities": [
+          "music streaming platform",
+          "price"
+        ],
+        "evidence_quote": "The best music streaming platform at an affordable price",
+        "intent": "praise",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "fed250ff-32d6-4bad-9a4d-da36616041d6",
+        "sentiment": 0.9,
+        "severity": 1,
+        "source_sha256": "08860f0ec0714eb9d30eca33fd14970d14cb82f8b669303b66e52613ccacb170",
+        "status": "completed",
+        "topic": "other"
+      },
+      "fields": [
+        "topic"
+      ],
+      "review_id": "fed250ff-32d6-4bad-9a4d-da36616041d6",
+      "verifier": {
+        "entities": [
+          "price"
+        ],
+        "evidence_quote": "The best music streaming platform at an affordable price",
+        "intent": "praise",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "fed250ff-32d6-4bad-9a4d-da36616041d6",
+        "sentiment": 0.8,
+        "severity": 1,
+        "source_sha256": "08860f0ec0714eb9d30eca33fd14970d14cb82f8b669303b66e52613ccacb170",
+        "status": "completed",
+        "topic": "billing"
+      }
+    },
+    {
+      "enricher": {
+        "entities": [],
+        "evidence_quote": "It coool🦝🐺🦊🦝🐈🐈‍⬛",
+        "intent": "praise",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "83873729-b7f6-4bd3-884a-476ae0569ad0",
+        "sentiment": 1,
+        "severity": 1,
+        "source_sha256": "ba7321cf42b7c7d02a08e7e4af256f5f066631b9788803a82a37470008375766",
+        "status": "completed",
+        "topic": "other"
+      },
+      "fields": [
+        "intent"
+      ],
+      "review_id": "83873729-b7f6-4bd3-884a-476ae0569ad0",
+      "verifier": {
+        "entities": [],
+        "evidence_quote": "It coool🦝🐺🦊🦝🐈🐈‍⬛",
+        "intent": "unclear",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": true,
+        "review_id": "83873729-b7f6-4bd3-884a-476ae0569ad0",
+        "sentiment": 0,
+        "severity": 1,
+        "source_sha256": "ba7321cf42b7c7d02a08e7e4af256f5f066631b9788803a82a37470008375766",
+        "status": "completed",
+        "topic": "other"
+      }
+    },
+    {
+      "enricher": {
+        "entities": [
+          "payment",
+          "Premium Mini",
+          "money"
+        ],
+        "evidence_quote": "I want my money back",
+        "intent": "complaint",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "1937c5d8-059f-4f04-944a-203ace6ada07",
+        "sentiment": -1,
+        "severity": 4,
+        "source_sha256": "d2d63102086013cf3383d4f20963902c18b955c272429d9ad1d7fbc939d071d2",
+        "status": "completed",
+        "topic": "billing"
+      },
+      "fields": [
+        "severity"
+      ],
+      "review_id": "1937c5d8-059f-4f04-944a-203ace6ada07",
+      "verifier": {
+        "entities": [
+          "payment",
+          "129 rs",
+          "premium mini",
+          "130rs"
+        ],
+        "evidence_quote": "Very bad app i have done payment of 129 rs but it is not updated and i have taken again premium mini then it is showing I have lost 130rs very dirty app I want my money back",
+        "intent": "complaint",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "1937c5d8-059f-4f04-944a-203ace6ada07",
+        "sentiment": -0.9,
+        "severity": 5,
+        "source_sha256": "d2d63102086013cf3383d4f20963902c18b955c272429d9ad1d7fbc939d071d2",
+        "status": "completed",
+        "topic": "billing"
+      }
+    },
+    {
+      "enricher": {
+        "entities": [
+          "ads"
+        ],
+        "evidence_quote": "Ads destroy the whole mood and vibe",
+        "intent": "complaint",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "2e6d6353-baa4-4c5a-be65-b86578df4d94",
+        "sentiment": -0.7,
+        "severity": 2,
+        "source_sha256": "b0a017093a2bde875cb4535a6597b8f3da335c30712aa50bb1cc804e16d87a24",
+        "status": "completed",
+        "topic": "usability"
+      },
+      "fields": [
+        "intent"
+      ],
+      "review_id": "2e6d6353-baa4-4c5a-be65-b86578df4d94",
+      "verifier": {
+        "entities": [
+          "ads"
+        ],
+        "evidence_quote": "Ads destroy the whole mood and vibe please provide less ads.",
+        "intent": "request",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "2e6d6353-baa4-4c5a-be65-b86578df4d94",
+        "sentiment": -1,
+        "severity": 2,
+        "source_sha256": "b0a017093a2bde875cb4535a6597b8f3da335c30712aa50bb1cc804e16d87a24",
+        "status": "completed",
+        "topic": "usability"
+      }
+    },
+    {
+      "enricher": {
+        "entities": [
+          "app update",
+          "bugs"
+        ],
+        "evidence_quote": "Atualizou e app tá td bugado",
+        "intent": "complaint",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "6defd339-6251-46d0-9161-b0c665c24ed2",
+        "sentiment": -0.6,
+        "severity": 3,
+        "source_sha256": "c8fcbf1b803953f914ba22a541a47998725071a40a7f8d4ce302f3c7ce661484",
+        "status": "completed",
+        "topic": "usability"
+      },
+      "fields": [
+        "severity"
+      ],
+      "review_id": "6defd339-6251-46d0-9161-b0c665c24ed2",
+      "verifier": {
+        "entities": [
+          "app"
+        ],
+        "evidence_quote": "Atualizou e app tá td bugado",
+        "intent": "complaint",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": true,
+        "review_id": "6defd339-6251-46d0-9161-b0c665c24ed2",
+        "sentiment": -0.5,
+        "severity": 2,
+        "source_sha256": "c8fcbf1b803953f914ba22a541a47998725071a40a7f8d4ce302f3c7ce661484",
+        "status": "completed",
+        "topic": "usability"
+      }
+    },
+    {
+      "enricher": {
+        "entities": [
+          "songs",
+          "music"
+        ],
+        "evidence_quote": "this is my favorite app so many songs like sad songs 19s song and many more",
+        "intent": "praise",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "1f9fb74e-1678-4188-baf2-e9cb912d6ef0",
+        "sentiment": 1.0,
+        "severity": 1,
+        "source_sha256": "ca9e252316d1381a95731295aedb54adf04191982bbf8dc680c8ddc48a0165f4",
+        "status": "completed",
+        "topic": "other"
+      },
+      "fields": [
+        "topic"
+      ],
+      "review_id": "1f9fb74e-1678-4188-baf2-e9cb912d6ef0",
+      "verifier": {
+        "entities": [
+          "songs",
+          "music"
+        ],
+        "evidence_quote": "The best of the best!! Im so speechless this is my favorite app so many songs like sad songs 19s song and many more i really really like this app so much ngl like when my day so bad i open this app and just playing some music i can even dance to the music lmao",
+        "intent": "praise",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "1f9fb74e-1678-4188-baf2-e9cb912d6ef0",
+        "sentiment": 1,
+        "severity": 1,
+        "source_sha256": "ca9e252316d1381a95731295aedb54adf04191982bbf8dc680c8ddc48a0165f4",
+        "status": "completed",
+        "topic": "catalog"
+      }
+    },
+    {
+      "enricher": {
+        "entities": [],
+        "evidence_quote": "Very nice can be done more better.",
+        "intent": "praise",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "7e563bb0-b4e8-430a-aa97-09b9287bcf86",
+        "sentiment": 0.5,
+        "severity": 1,
+        "source_sha256": "4380342d60d9318e63378e2761a68d167ceb3d517fcc4bc4771947e0d6a5e29f",
+        "status": "completed",
+        "topic": "other"
+      },
+      "fields": [
+        "intent"
+      ],
+      "review_id": "7e563bb0-b4e8-430a-aa97-09b9287bcf86",
+      "verifier": {
+        "entities": [],
+        "evidence_quote": "Very nice can be done more better.",
+        "intent": "unclear",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": true,
+        "review_id": "7e563bb0-b4e8-430a-aa97-09b9287bcf86",
+        "sentiment": 0.4,
+        "severity": 1,
+        "source_sha256": "4380342d60d9318e63378e2761a68d167ceb3d517fcc4bc4771947e0d6a5e29f",
+        "status": "completed",
+        "topic": "other"
+      }
+    },
+    {
+      "enricher": {
+        "entities": [
+          "playlists",
+          "Premium"
+        ],
+        "evidence_quote": "spend months curating playlists just for them to randomly disappear.",
+        "intent": "complaint",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "f549ea18-439c-486b-9fbd-78139a13e0af",
+        "sentiment": -0.9,
+        "severity": 3,
+        "source_sha256": "fff4d9cde7da95b1242ee7c92a13022259bcba6f59f740702bdc415583ecb344",
+        "status": "completed",
+        "topic": "other"
+      },
+      "fields": [
+        "topic"
+      ],
+      "review_id": "f549ea18-439c-486b-9fbd-78139a13e0af",
+      "verifier": {
+        "entities": [
+          "playlists",
+          "premium"
+        ],
+        "evidence_quote": "spend months curating playlists just for them to randomly disappear.",
+        "intent": "complaint",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "f549ea18-439c-486b-9fbd-78139a13e0af",
+        "sentiment": -0.9,
+        "severity": 3,
+        "source_sha256": "fff4d9cde7da95b1242ee7c92a13022259bcba6f59f740702bdc415583ecb344",
+        "status": "completed",
+        "topic": "downloads"
+      }
+    },
+    {
+      "enricher": {
+        "entities": [
+          "sound quality",
+          "Bose headsets",
+          "YouTube Music"
+        ],
+        "evidence_quote": "The sound quality of the music is poor!",
+        "intent": "complaint",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "23cd244d-dbfe-4415-a857-ad6094c9a3a8",
+        "sentiment": -0.8,
+        "severity": 2,
+        "source_sha256": "6bf193b3e598944a504b29bc01f3809c813608c667b3ddb1a3c63f3770c005c9",
+        "status": "completed",
+        "topic": "playback"
+      },
+      "fields": [
+        "severity"
+      ],
+      "review_id": "23cd244d-dbfe-4415-a857-ad6094c9a3a8",
+      "verifier": {
+        "entities": [
+          "sound quality",
+          "Bose headsets"
+        ],
+        "evidence_quote": "The sound quality of the music is poor! I have a bose headsets and the music quality is poor using spotify.",
+        "intent": "complaint",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "23cd244d-dbfe-4415-a857-ad6094c9a3a8",
+        "sentiment": -0.8,
+        "severity": 3,
+        "source_sha256": "6bf193b3e598944a504b29bc01f3809c813608c667b3ddb1a3c63f3770c005c9",
+        "status": "completed",
+        "topic": "playback"
+      }
+    },
+    {
+      "enricher": {
+        "entities": [
+          "podcasts",
+          "pause button",
+          "play button",
+          "skip button",
+          "Bluetooth"
+        ],
+        "evidence_quote": "being unable to pause or play audio.",
+        "intent": "complaint",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "f4fcb33e-ae08-4e80-9719-a8277c21ceaa",
+        "sentiment": -0.9,
+        "severity": 3,
+        "source_sha256": "b56b25a1a078a2b16c0f65c8bd4d6fdcb647114716f6a6676a14d4d69a7cfbaf",
+        "status": "completed",
+        "topic": "playback"
+      },
+      "fields": [
+        "topic"
+      ],
+      "review_id": "f4fcb33e-ae08-4e80-9719-a8277c21ceaa",
+      "verifier": {
+        "entities": [
+          "pause button",
+          "play button",
+          "skip button",
+          "Bluetooth"
+        ],
+        "evidence_quote": "I cannot access a pause, play, or skip button.",
+        "intent": "complaint",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "f4fcb33e-ae08-4e80-9719-a8277c21ceaa",
+        "sentiment": -0.8,
+        "severity": 3,
+        "source_sha256": "b56b25a1a078a2b16c0f65c8bd4d6fdcb647114716f6a6676a14d4d69a7cfbaf",
+        "status": "completed",
+        "topic": "usability"
+      }
+    },
+    {
+      "enricher": {
+        "entities": [
+          "song selection",
+          "playlists",
+          "random songs"
+        ],
+        "evidence_quote": "Uninstalling, Zuri ♡",
+        "intent": "cancellation",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "6737983c-e40b-45d6-88d9-00aa4b6d1859",
+        "sentiment": -0.9,
+        "severity": 3,
+        "source_sha256": "77376b8e16c9ee6e516be6291c797c90c3a9ba5e8fd2490bac33ea96ff931f19",
+        "status": "completed",
+        "topic": "usability"
+      },
+      "fields": [
+        "topic"
+      ],
+      "review_id": "6737983c-e40b-45d6-88d9-00aa4b6d1859",
+      "verifier": {
+        "entities": [
+          "songs",
+          "playlists",
+          "random songs"
+        ],
+        "evidence_quote": "If you want to play a song or a playlist, they will play you a whole different song and add random songs to it.",
+        "intent": "cancellation",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "6737983c-e40b-45d6-88d9-00aa4b6d1859",
+        "sentiment": -0.9,
+        "severity": 3,
+        "source_sha256": "77376b8e16c9ee6e516be6291c797c90c3a9ba5e8fd2490bac33ea96ff931f19",
+        "status": "completed",
+        "topic": "playback"
+      }
+    },
+    {
+      "enricher": {
+        "entities": [
+          "tunes"
+        ],
+        "evidence_quote": "Great tunes",
+        "intent": "praise",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "cf599e9f-3716-4bd1-aa67-ef8ecb009670",
+        "sentiment": 0.7,
+        "severity": 1,
+        "source_sha256": "31bba9cd16dbb2c1953584613573a4a9dd7d0dc7a9a0ff729d94e91b9819894e",
+        "status": "completed",
+        "topic": "other"
+      },
+      "fields": [
+        "topic"
+      ],
+      "review_id": "cf599e9f-3716-4bd1-aa67-ef8ecb009670",
+      "verifier": {
+        "entities": [],
+        "evidence_quote": "Great tunes 0",
+        "intent": "praise",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "cf599e9f-3716-4bd1-aa67-ef8ecb009670",
+        "sentiment": 0.8,
+        "severity": 1,
+        "source_sha256": "31bba9cd16dbb2c1953584613573a4a9dd7d0dc7a9a0ff729d94e91b9819894e",
+        "status": "completed",
+        "topic": "catalog"
+      }
+    },
+    {
+      "enricher": {
+        "entities": [
+          "song selection",
+          "playlist"
+        ],
+        "evidence_quote": "Whenever I play a song it plays a playlist and can't I listen to song I searched for",
+        "intent": "complaint",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "e444fc3b-be8c-420d-960f-2134f3b0f1bd",
+        "sentiment": -0.7,
+        "severity": 3,
+        "source_sha256": "eef8b79b8607fe10c47cbaa1976d2d7c0269bf56aa3891e004afe1fb94c1fcba",
+        "status": "completed",
+        "topic": "usability"
+      },
+      "fields": [
+        "topic"
+      ],
+      "review_id": "e444fc3b-be8c-420d-960f-2134f3b0f1bd",
+      "verifier": {
+        "entities": [
+          "song search",
+          "playlist"
+        ],
+        "evidence_quote": "Whenever I play a song it plays a playlist and can't I listen to song I searched for",
+        "intent": "complaint",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "e444fc3b-be8c-420d-960f-2134f3b0f1bd",
+        "sentiment": -0.7,
+        "severity": 3,
+        "source_sha256": "eef8b79b8607fe10c47cbaa1976d2d7c0269bf56aa3891e004afe1fb94c1fcba",
+        "status": "completed",
+        "topic": "catalog"
+      }
+    },
+    {
+      "enricher": {
+        "entities": [
+          "BTS"
+        ],
+        "evidence_quote": "this is best music app ever",
+        "intent": "praise",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "06c0b9e1-42da-4c43-bb3e-43d072ed08d5",
+        "sentiment": 1,
+        "severity": 1,
+        "source_sha256": "27d537b5af86004cb08cdeecfd861e35c3e8961fd9de1110408043cf4123caa6",
+        "status": "completed",
+        "topic": "other"
+      },
+      "fields": [
+        "topic"
+      ],
+      "review_id": "06c0b9e1-42da-4c43-bb3e-43d072ed08d5",
+      "verifier": {
+        "entities": [
+          "BTS"
+        ],
+        "evidence_quote": "this is best music app ever i am here for BTS and i am an army",
+        "intent": "praise",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "06c0b9e1-42da-4c43-bb3e-43d072ed08d5",
+        "sentiment": 0.9,
+        "severity": 1,
+        "source_sha256": "27d537b5af86004cb08cdeecfd861e35c3e8961fd9de1110408043cf4123caa6",
+        "status": "completed",
+        "topic": "catalog"
+      }
+    },
+    {
+      "enricher": {
+        "entities": [
+          "bugs",
+          "sound quality",
+          "features"
+        ],
+        "evidence_quote": "Great sound quality, cool features but way too many bugs.",
+        "intent": "complaint",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": true,
+        "review_id": "1cc7214a-c8eb-4f21-b759-a8fb64708d33",
+        "sentiment": -0.5,
+        "severity": 3,
+        "source_sha256": "e702a96031c376192789e0c753c298877bc22bc973418a47ded31d4a08f02065",
+        "status": "completed",
+        "topic": "playback"
+      },
+      "fields": [
+        "severity"
+      ],
+      "review_id": "1cc7214a-c8eb-4f21-b759-a8fb64708d33",
+      "verifier": {
+        "entities": [
+          "sound quality",
+          "features",
+          "bugs"
+        ],
+        "evidence_quote": "Great sound quality, cool features but way too many bugs.",
+        "intent": "complaint",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "1cc7214a-c8eb-4f21-b759-a8fb64708d33",
+        "sentiment": -0.6,
+        "severity": 2,
+        "source_sha256": "e702a96031c376192789e0c753c298877bc22bc973418a47ded31d4a08f02065",
+        "status": "completed",
+        "topic": "playback"
+      }
+    },
+    {
+      "enricher": {
+        "entities": [
+          "song selection"
+        ],
+        "evidence_quote": "You cant even listen to the music you want to listen to. It makes me listen to songs I don't even like",
+        "intent": "complaint",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "a4c89629-f24b-4dbc-b6f0-8c47a07c7a00",
+        "sentiment": -0.8,
+        "severity": 3,
+        "source_sha256": "dfe525267d55af40d8d3f2242c9ab1ce9312ae2e95f0995773a25b81a9824f40",
+        "status": "completed",
+        "topic": "playback"
+      },
+      "fields": [
+        "topic"
+      ],
+      "review_id": "a4c89629-f24b-4dbc-b6f0-8c47a07c7a00",
+      "verifier": {
+        "entities": [
+          "song selection",
+          "shuffle"
+        ],
+        "evidence_quote": "You cant even listen to the music you want to listen to. It makes me listen to songs I don't even like",
+        "intent": "complaint",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "a4c89629-f24b-4dbc-b6f0-8c47a07c7a00",
+        "sentiment": -1,
+        "severity": 3,
+        "source_sha256": "dfe525267d55af40d8d3f2242c9ab1ce9312ae2e95f0995773a25b81a9824f40",
+        "status": "completed",
+        "topic": "usability"
+      }
+    },
+    {
+      "enricher": {
+        "entities": [
+          "karaoke mode"
+        ],
+        "evidence_quote": "how can i activate karaoke mode",
+        "intent": "request",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "681cc623-9a34-4995-9941-30a26832b4f2",
+        "sentiment": 0,
+        "severity": 1,
+        "source_sha256": "a031a5d5e0d03dc1167b9ce306501872c71838a95c878f72a055ee755528cebd",
+        "status": "completed",
+        "topic": "usability"
+      },
+      "fields": [
+        "topic"
+      ],
+      "review_id": "681cc623-9a34-4995-9941-30a26832b4f2",
+      "verifier": {
+        "entities": [
+          "karaoke mode"
+        ],
+        "evidence_quote": "hello how can i activate karaoke mode",
+        "intent": "request",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "681cc623-9a34-4995-9941-30a26832b4f2",
+        "sentiment": 0,
+        "severity": 1,
+        "source_sha256": "a031a5d5e0d03dc1167b9ce306501872c71838a95c878f72a055ee755528cebd",
+        "status": "completed",
+        "topic": "catalog"
+      }
+    },
+    {
+      "enricher": {
+        "entities": [
+          "premium"
+        ],
+        "evidence_quote": "Don't download unless you're paying for premium If you're listening for free you'd only get frustrated trust me 🚮",
+        "intent": "complaint",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "dcb319d6-4f8d-48da-a7c8-920374c1b1a5",
+        "sentiment": -0.7,
+        "severity": 2,
+        "source_sha256": "c8734ed97a6e8ab342a2555f2dd64896066779650453b32b43b52ab9bb339a40",
+        "status": "completed",
+        "topic": "billing"
+      },
+      "fields": [
+        "severity"
+      ],
+      "review_id": "dcb319d6-4f8d-48da-a7c8-920374c1b1a5",
+      "verifier": {
+        "entities": [
+          "Premium"
+        ],
+        "evidence_quote": "If you're listening for free you'd only get frustrated trust me",
+        "intent": "complaint",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "dcb319d6-4f8d-48da-a7c8-920374c1b1a5",
+        "sentiment": -1,
+        "severity": 3,
+        "source_sha256": "c8734ed97a6e8ab342a2555f2dd64896066779650453b32b43b52ab9bb339a40",
+        "status": "completed",
+        "topic": "billing"
+      }
+    },
+    {
+      "enricher": {
+        "entities": [
+          "favorites"
+        ],
+        "evidence_quote": "I love that I can see all my favorites and much more",
+        "intent": "praise",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "6287080e-51f7-41f5-8f7d-38bc8735fd51",
+        "sentiment": 0.8,
+        "severity": 1,
+        "source_sha256": "fa53b380ff64648bb4d4873265aa7cf666aac3788ab03d33dad319b775cf8a40",
+        "status": "completed",
+        "topic": "other"
+      },
+      "fields": [
+        "topic"
+      ],
+      "review_id": "6287080e-51f7-41f5-8f7d-38bc8735fd51",
+      "verifier": {
+        "entities": [
+          "favorites"
+        ],
+        "evidence_quote": "I love that I can see all my favorites and much more",
+        "intent": "praise",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "6287080e-51f7-41f5-8f7d-38bc8735fd51",
+        "sentiment": 1,
+        "severity": 1,
+        "source_sha256": "fa53b380ff64648bb4d4873265aa7cf666aac3788ab03d33dad319b775cf8a40",
+        "status": "completed",
+        "topic": "usability"
+      }
+    },
+    {
+      "enricher": {
+        "entities": [
+          "loading"
+        ],
+        "evidence_quote": "it's not loading in",
+        "intent": "complaint",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "022ac96b-a02b-4013-8fd5-e5385c316058",
+        "sentiment": -0.6,
+        "severity": 4,
+        "source_sha256": "df3f00ea73b3498ec9f79fe2f7a221082afcadff32273bb471e5a948a5a38d56",
+        "status": "completed",
+        "topic": "access"
+      },
+      "fields": [
+        "topic"
+      ],
+      "review_id": "022ac96b-a02b-4013-8fd5-e5385c316058",
+      "verifier": {
+        "entities": [],
+        "evidence_quote": "it's not loading in",
+        "intent": "complaint",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "022ac96b-a02b-4013-8fd5-e5385c316058",
+        "sentiment": -0.7,
+        "severity": 4,
+        "source_sha256": "df3f00ea73b3498ec9f79fe2f7a221082afcadff32273bb471e5a948a5a38d56",
+        "status": "completed",
+        "topic": "playback"
+      }
+    },
+    {
+      "enricher": {
+        "entities": [
+          "liked song playlist"
+        ],
+        "evidence_quote": "I cannot open my liked song playlist...",
+        "intent": "complaint",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "b7f3d0e3-10df-4bdf-ab37-a49d2c0960b6",
+        "sentiment": -0.6,
+        "severity": 3,
+        "source_sha256": "14674f5b1f9e8c24b9cb2171a098ba5c99ea4617f1996bb6d72b0781cc06ef75",
+        "status": "completed",
+        "topic": "usability"
+      },
+      "fields": [
+        "topic"
+      ],
+      "review_id": "b7f3d0e3-10df-4bdf-ab37-a49d2c0960b6",
+      "verifier": {
+        "entities": [
+          "liked song playlist"
+        ],
+        "evidence_quote": "I cannot open my liked song playlist...",
+        "intent": "complaint",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "b7f3d0e3-10df-4bdf-ab37-a49d2c0960b6",
+        "sentiment": -0.7,
+        "severity": 3,
+        "source_sha256": "14674f5b1f9e8c24b9cb2171a098ba5c99ea4617f1996bb6d72b0781cc06ef75",
+        "status": "completed",
+        "topic": "catalog"
+      }
+    },
+    {
+      "enricher": {
+        "entities": [
+          "app"
+        ],
+        "evidence_quote": "I can't update or download app.",
+        "intent": "complaint",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "c7adce38-1573-454d-86a8-066e900db44f",
+        "sentiment": -0.5,
+        "severity": 3,
+        "source_sha256": "9f812bb3f37f171f9a8bf2acb61cf4edf229bc3539bf25aa034bb52397cf0783",
+        "status": "completed",
+        "topic": "access"
+      },
+      "fields": [
+        "topic"
+      ],
+      "review_id": "c7adce38-1573-454d-86a8-066e900db44f",
+      "verifier": {
+        "entities": [
+          "app update",
+          "download"
+        ],
+        "evidence_quote": "I can't update or download app.",
+        "intent": "complaint",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "c7adce38-1573-454d-86a8-066e900db44f",
+        "sentiment": -0.5,
+        "severity": 3,
+        "source_sha256": "9f812bb3f37f171f9a8bf2acb61cf4edf229bc3539bf25aa034bb52397cf0783",
+        "status": "completed",
+        "topic": "downloads"
+      }
+    },
+    {
+      "enricher": {
+        "entities": [],
+        "evidence_quote": "Hi bye",
+        "intent": "cancellation",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": true,
+        "review_id": "c269bffd-b1a3-4278-bf30-263f667abbec",
+        "sentiment": -0.2,
+        "severity": 1,
+        "source_sha256": "16d6c8c1c8495d1475d6ee4a74b9f766d9190225f9e6ed530ee89f216f8e43b8",
+        "status": "completed",
+        "topic": "other"
+      },
+      "fields": [
+        "intent"
+      ],
+      "review_id": "c269bffd-b1a3-4278-bf30-263f667abbec",
+      "verifier": {
+        "entities": [],
+        "evidence_quote": "Hi bye",
+        "intent": "unclear",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "c269bffd-b1a3-4278-bf30-263f667abbec",
+        "sentiment": 0,
+        "severity": 1,
+        "source_sha256": "16d6c8c1c8495d1475d6ee4a74b9f766d9190225f9e6ed530ee89f216f8e43b8",
+        "status": "completed",
+        "topic": "other"
+      }
+    },
+    {
+      "enricher": {
+        "entities": [
+          "ads",
+          "network"
+        ],
+        "evidence_quote": "Earlier app was very good and 2 ads come at a tym now 4-5 ads come at a tym and is very difficult to listen on it",
+        "intent": "complaint",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "e7b33e84-aebf-48aa-9c55-0d0ca79fab10",
+        "sentiment": -0.7,
+        "severity": 2,
+        "source_sha256": "d40b577314d0f87a45a65704c41d6dde294aa9ebef3676e967317766dc2767e8",
+        "status": "completed",
+        "topic": "usability"
+      },
+      "fields": [
+        "severity"
+      ],
+      "review_id": "e7b33e84-aebf-48aa-9c55-0d0ca79fab10",
+      "verifier": {
+        "entities": [
+          "ads",
+          "network"
+        ],
+        "evidence_quote": "Earlier app was very good and 2 ads come at a tym now 4-5 ads come at a tym and is very difficult to listen on it and network problem is also there",
+        "intent": "complaint",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "e7b33e84-aebf-48aa-9c55-0d0ca79fab10",
+        "sentiment": -0.7,
+        "severity": 3,
+        "source_sha256": "d40b577314d0f87a45a65704c41d6dde294aa9ebef3676e967317766dc2767e8",
+        "status": "completed",
+        "topic": "usability"
+      }
+    },
+    {
+      "enricher": {
+        "entities": [
+          "autoplay"
+        ],
+        "evidence_quote": "Pls fix the autoplay",
+        "intent": "complaint",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "b1afc825-cb16-4929-9e43-b003bee56bfc",
+        "sentiment": -0.5,
+        "severity": 3,
+        "source_sha256": "131ce07e95b4efddb8deb2a2c0c328feec81f42bfeb9dac46dab916f0d19b5c1",
+        "status": "completed",
+        "topic": "playback"
+      },
+      "fields": [
+        "intent",
+        "severity"
+      ],
+      "review_id": "b1afc825-cb16-4929-9e43-b003bee56bfc",
+      "verifier": {
+        "entities": [
+          "autoplay"
+        ],
+        "evidence_quote": "Pls fix the autoplay",
+        "intent": "request",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "b1afc825-cb16-4929-9e43-b003bee56bfc",
+        "sentiment": -0.2,
+        "severity": 1,
+        "source_sha256": "131ce07e95b4efddb8deb2a2c0c328feec81f42bfeb9dac46dab916f0d19b5c1",
+        "status": "completed",
+        "topic": "playback"
+      }
+    },
+    {
+      "enricher": {
+        "entities": [
+          "heavy metal music",
+          "premium"
+        ],
+        "evidence_quote": "If they remove heavy metal music, I will delete the app and never pay for premium ever again.",
+        "intent": "cancellation",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "92fdf763-2b4b-440d-895c-bfb1d2e2e0c3",
+        "sentiment": -1,
+        "severity": 1,
+        "source_sha256": "de541152c5f889dbba4a96a57af85b73262c1afba9013dcd14e9aea6d808bda3",
+        "status": "completed",
+        "topic": "catalog"
+      },
+      "fields": [
+        "intent",
+        "severity"
+      ],
+      "review_id": "92fdf763-2b4b-440d-895c-bfb1d2e2e0c3",
+      "verifier": {
+        "entities": [
+          "heavy metal music"
+        ],
+        "evidence_quote": "If they remove heavy metal music, I will delete the app and never pay for premium ever again. It's my favorite genre.",
+        "intent": "complaint",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "92fdf763-2b4b-440d-895c-bfb1d2e2e0c3",
+        "sentiment": -0.6,
+        "severity": 2,
+        "source_sha256": "de541152c5f889dbba4a96a57af85b73262c1afba9013dcd14e9aea6d808bda3",
+        "status": "completed",
+        "topic": "catalog"
+      }
+    },
+    {
+      "enricher": {
+        "entities": [
+          "playlist",
+          "resume playback",
+          "song curation"
+        ],
+        "evidence_quote": "I am unable to view last-played in a playlist and resume from that point.",
+        "intent": "complaint",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "a0675f2f-7294-4c0e-a656-159b0893e956",
+        "sentiment": -0.4,
+        "severity": 3,
+        "source_sha256": "be300515f77e700ed035a9ff8cb68521506b23b514133c8f00e6676032b11722",
+        "status": "completed",
+        "topic": "playback"
+      },
+      "fields": [
+        "topic"
+      ],
+      "review_id": "a0675f2f-7294-4c0e-a656-159b0893e956",
+      "verifier": {
+        "entities": [
+          "playlist",
+          "last-played"
+        ],
+        "evidence_quote": "I am unable to view last-played in a playlist and resume from that point.",
+        "intent": "complaint",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "a0675f2f-7294-4c0e-a656-159b0893e956",
+        "sentiment": -0.4,
+        "severity": 3,
+        "source_sha256": "be300515f77e700ed035a9ff8cb68521506b23b514133c8f00e6676032b11722",
+        "status": "completed",
+        "topic": "usability"
+      }
+    },
+    {
+      "enricher": {
+        "entities": [
+          "music player",
+          "playlist",
+          "song selection"
+        ],
+        "evidence_quote": "I can not play any music that I want.. I only can play the entire playlist and unable to choose one fav song..",
+        "intent": "complaint",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "a11039dc-608a-4cc8-a734-c63e043250e3",
+        "sentiment": -0.8,
+        "severity": 3,
+        "source_sha256": "2523edaaebfa83c107908c979fd48a692547d278c890ff25b413d7cb0cb03d6d",
+        "status": "completed",
+        "topic": "playback"
+      },
+      "fields": [
+        "topic"
+      ],
+      "review_id": "a11039dc-608a-4cc8-a734-c63e043250e3",
+      "verifier": {
+        "entities": [
+          "playlist",
+          "song controls"
+        ],
+        "evidence_quote": "I can not play any music that I want.. I only can play the entire playlist and unable to choose one fav song..",
+        "intent": "complaint",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "a11039dc-608a-4cc8-a734-c63e043250e3",
+        "sentiment": -0.8,
+        "severity": 3,
+        "source_sha256": "2523edaaebfa83c107908c979fd48a692547d278c890ff25b413d7cb0cb03d6d",
+        "status": "completed",
+        "topic": "usability"
+      }
+    },
+    {
+      "enricher": {
+        "entities": [
+          "trial"
+        ],
+        "evidence_quote": "Signed up for trial and it still don't work",
+        "intent": "complaint",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": true,
+        "review_id": "f41e9e6f-92e6-4b40-bbb3-da52a357c833",
+        "sentiment": -0.6,
+        "severity": 3,
+        "source_sha256": "8f46feb554d057ea1379b01b4c1a0cfde4eb766d984d7c61fe6f38be3c88fe65",
+        "status": "completed",
+        "topic": "playback"
+      },
+      "fields": [
+        "topic"
+      ],
+      "review_id": "f41e9e6f-92e6-4b40-bbb3-da52a357c833",
+      "verifier": {
+        "entities": [
+          "trial"
+        ],
+        "evidence_quote": "Signed up for trial and it still don't work",
+        "intent": "complaint",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": true,
+        "review_id": "f41e9e6f-92e6-4b40-bbb3-da52a357c833",
+        "sentiment": -0.6,
+        "severity": 3,
+        "source_sha256": "8f46feb554d057ea1379b01b4c1a0cfde4eb766d984d7c61fe6f38be3c88fe65",
+        "status": "completed",
+        "topic": "billing"
+      }
+    },
+    {
+      "enricher": {
+        "entities": [
+          "app"
+        ],
+        "evidence_quote": "Just beautiful app",
+        "intent": "praise",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "63acd15d-82aa-46bc-91a6-126e4f31d753",
+        "sentiment": 0.9,
+        "severity": 1,
+        "source_sha256": "fe963574d4e68133ac29cab29f4e88c6055615bf816d02f14ed95ae1b91199fa",
+        "status": "completed",
+        "topic": "other"
+      },
+      "fields": [
+        "topic"
+      ],
+      "review_id": "63acd15d-82aa-46bc-91a6-126e4f31d753",
+      "verifier": {
+        "entities": [],
+        "evidence_quote": "Just beautiful app",
+        "intent": "praise",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "63acd15d-82aa-46bc-91a6-126e4f31d753",
+        "sentiment": 0.8,
+        "severity": 1,
+        "source_sha256": "fe963574d4e68133ac29cab29f4e88c6055615bf816d02f14ed95ae1b91199fa",
+        "status": "completed",
+        "topic": "usability"
+      }
+    },
+    {
+      "enricher": {
+        "entities": [
+          "app"
+        ],
+        "evidence_quote": "Very slow app and not complete",
+        "intent": "complaint",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": true,
+        "review_id": "94d5b5e1-f11a-413a-8149-6c08c5299c30",
+        "sentiment": -0.5,
+        "severity": 2,
+        "source_sha256": "2c8834d73b951fc1b58c254b20518ed0503d4998aae0c73e1cf75eb79ec43efb",
+        "status": "completed",
+        "topic": "usability"
+      },
+      "fields": [
+        "severity"
+      ],
+      "review_id": "94d5b5e1-f11a-413a-8149-6c08c5299c30",
+      "verifier": {
+        "entities": [],
+        "evidence_quote": "Very slow app and not complete",
+        "intent": "complaint",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": true,
+        "review_id": "94d5b5e1-f11a-413a-8149-6c08c5299c30",
+        "sentiment": -0.6,
+        "severity": 3,
+        "source_sha256": "2c8834d73b951fc1b58c254b20518ed0503d4998aae0c73e1cf75eb79ec43efb",
+        "status": "completed",
+        "topic": "usability"
+      }
+    },
+    {
+      "enricher": {
+        "entities": [
+          "music"
+        ],
+        "evidence_quote": "The best music 🎵",
+        "intent": "praise",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "5fec9780-493a-45b0-bcaf-6057d7005697",
+        "sentiment": 0.9,
+        "severity": 1,
+        "source_sha256": "56858dc2a1cb25264bf46db2f953eca8e7274bc31e0189727e17993ad0aa84dd",
+        "status": "completed",
+        "topic": "other"
+      },
+      "fields": [
+        "topic"
+      ],
+      "review_id": "5fec9780-493a-45b0-bcaf-6057d7005697",
+      "verifier": {
+        "entities": [],
+        "evidence_quote": "The best music 🎵",
+        "intent": "praise",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "5fec9780-493a-45b0-bcaf-6057d7005697",
+        "sentiment": 0.9,
+        "severity": 1,
+        "source_sha256": "56858dc2a1cb25264bf46db2f953eca8e7274bc31e0189727e17993ad0aa84dd",
+        "status": "completed",
+        "topic": "catalog"
+      }
+    },
+    {
+      "enricher": {
+        "entities": [],
+        "evidence_quote": "Muito boa aplicação.",
+        "intent": "praise",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "543b7f82-84c9-4d23-9e3d-03592edda051",
+        "sentiment": 0.8,
+        "severity": 1,
+        "source_sha256": "ba919bbee8f9b64d42d34bc9ba47950812f8fd92ae0b8607ee65973ab8272bfb",
+        "status": "completed",
+        "topic": "other"
+      },
+      "fields": [
+        "topic"
+      ],
+      "review_id": "543b7f82-84c9-4d23-9e3d-03592edda051",
+      "verifier": {
+        "entities": [],
+        "evidence_quote": "Muito boa aplicação.",
+        "intent": "praise",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "543b7f82-84c9-4d23-9e3d-03592edda051",
+        "sentiment": 0.8,
+        "severity": 1,
+        "source_sha256": "ba919bbee8f9b64d42d34bc9ba47950812f8fd92ae0b8607ee65973ab8272bfb",
+        "status": "completed",
+        "topic": "usability"
+      }
+    },
+    {
+      "enricher": {
+        "entities": [],
+        "evidence_quote": "Love it and love the music",
+        "intent": "praise",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "1b941fee-4f79-4c11-866c-f5519dcb468d",
+        "sentiment": 1,
+        "severity": 1,
+        "source_sha256": "27d93db1b652251c4b57544960a87dd8f42f136bf8e591fa29658e36c0161b83",
+        "status": "completed",
+        "topic": "other"
+      },
+      "fields": [
+        "topic"
+      ],
+      "review_id": "1b941fee-4f79-4c11-866c-f5519dcb468d",
+      "verifier": {
+        "entities": [
+          "music"
+        ],
+        "evidence_quote": "Love it and love the music",
+        "intent": "praise",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "1b941fee-4f79-4c11-866c-f5519dcb468d",
+        "sentiment": 1,
+        "severity": 1,
+        "source_sha256": "27d93db1b652251c4b57544960a87dd8f42f136bf8e591fa29658e36c0161b83",
+        "status": "completed",
+        "topic": "catalog"
+      }
+    },
+    {
+      "enricher": {
+        "entities": [
+          "skip limit",
+          "song selection",
+          "fast-forward",
+          "previous song",
+          "Premium"
+        ],
+        "evidence_quote": "you can't choose what songs you play either, Spotify chooses. You cant fastfoward or go to the previous song.",
+        "intent": "cancellation",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "0ae233ed-0a08-41e6-9185-d92966d54caa",
+        "sentiment": -0.9,
+        "severity": 3,
+        "source_sha256": "e301e5bde94c3ca599419f8cd30f9a627ad8201739a433a97a99cbcabd40d1f5",
+        "status": "completed",
+        "topic": "usability"
+      },
+      "fields": [
+        "intent"
+      ],
+      "review_id": "0ae233ed-0a08-41e6-9185-d92966d54caa",
+      "verifier": {
+        "entities": [
+          "6 skips per hour",
+          "song controls",
+          "premium"
+        ],
+        "evidence_quote": "you can't choose what songs you play either, Spotify chooses. You cant fastfoward or go to the previous song.",
+        "intent": "complaint",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "0ae233ed-0a08-41e6-9185-d92966d54caa",
+        "sentiment": -0.9,
+        "severity": 3,
+        "source_sha256": "e301e5bde94c3ca599419f8cd30f9a627ad8201739a433a97a99cbcabd40d1f5",
+        "status": "completed",
+        "topic": "usability"
+      }
+    },
+    {
+      "enricher": {
+        "entities": [
+          "crashes",
+          "Premium",
+          "music quality",
+          "catalog",
+          "podcasts"
+        ],
+        "evidence_quote": "Sometimes it crashes but that's a-okay.",
+        "intent": "complaint",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "7894bcf4-5f47-45f1-a189-2fd137d2822d",
+        "sentiment": 0.7,
+        "severity": 3,
+        "source_sha256": "9cecb9acfbb8c27be3025ac294f820638b02c7cf09c7f58ad86933de92bafea9",
+        "status": "completed",
+        "topic": "playback"
+      },
+      "fields": [
+        "intent"
+      ],
+      "review_id": "7894bcf4-5f47-45f1-a189-2fd137d2822d",
+      "verifier": {
+        "entities": [
+          "crashes",
+          "Premium",
+          "music quality"
+        ],
+        "evidence_quote": "Sometimes it crashes but that's a-okay.",
+        "intent": "praise",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "7894bcf4-5f47-45f1-a189-2fd137d2822d",
+        "sentiment": 0.9,
+        "severity": 3,
+        "source_sha256": "9cecb9acfbb8c27be3025ac294f820638b02c7cf09c7f58ad86933de92bafea9",
+        "status": "completed",
+        "topic": "playback"
+      }
+    },
+    {
+      "enricher": {
+        "entities": [
+          "Android phones",
+          "playlists",
+          "music playback",
+          "support bot",
+          "subscription"
+        ],
+        "evidence_quote": "Lost Playlists and won't play any music at all.",
+        "intent": "complaint",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "42c55ab1-e0e5-4c7c-9355-97121e6aaa8d",
+        "sentiment": -0.9,
+        "severity": 4,
+        "source_sha256": "61c08741ad5408bb1d9fcda8d3314a358f9569f0a84d703405449a44da88f3f5",
+        "status": "completed",
+        "topic": "playback"
+      },
+      "fields": [
+        "topic",
+        "intent"
+      ],
+      "review_id": "42c55ab1-e0e5-4c7c-9355-97121e6aaa8d",
+      "verifier": {
+        "entities": [
+          "Android phones",
+          "update",
+          "playlists",
+          "support",
+          "subscription"
+        ],
+        "evidence_quote": "since update we can't access anything on our Android phones.",
+        "intent": "cancellation",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "42c55ab1-e0e5-4c7c-9355-97121e6aaa8d",
+        "sentiment": -0.9,
+        "severity": 4,
+        "source_sha256": "61c08741ad5408bb1d9fcda8d3314a358f9569f0a84d703405449a44da88f3f5",
+        "status": "completed",
+        "topic": "access"
+      }
+    },
+    {
+      "enricher": {
+        "entities": [
+          "playlist",
+          "music"
+        ],
+        "evidence_quote": "Stop adding music to my playlist",
+        "intent": "request",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "41f370a7-aafd-4ae8-bfdc-6b03eb8aed8d",
+        "sentiment": -0.3,
+        "severity": 1,
+        "source_sha256": "40444e143472a9e1381aaa59f3138bdf48d755f054b93856a5e12b7ad1d3729f",
+        "status": "completed",
+        "topic": "usability"
+      },
+      "fields": [
+        "topic"
+      ],
+      "review_id": "41f370a7-aafd-4ae8-bfdc-6b03eb8aed8d",
+      "verifier": {
+        "entities": [
+          "playlist"
+        ],
+        "evidence_quote": "Stop adding music to my playlist",
+        "intent": "request",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "41f370a7-aafd-4ae8-bfdc-6b03eb8aed8d",
+        "sentiment": -0.5,
+        "severity": 1,
+        "source_sha256": "40444e143472a9e1381aaa59f3138bdf48d755f054b93856a5e12b7ad1d3729f",
+        "status": "completed",
+        "topic": "catalog"
+      }
+    },
+    {
+      "enricher": {
+        "entities": [
+          "internet",
+          "offline use"
+        ],
+        "evidence_quote": "cannot use without internet",
+        "intent": "complaint",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "aff8e054-b54f-4c96-98b9-3f8b8c02bd58",
+        "sentiment": -0.4,
+        "severity": 3,
+        "source_sha256": "a5199e3059cbc1575f033b1c2c483d22d4fe699684556290b3c35604b25442bc",
+        "status": "completed",
+        "topic": "downloads"
+      },
+      "fields": [
+        "topic"
+      ],
+      "review_id": "aff8e054-b54f-4c96-98b9-3f8b8c02bd58",
+      "verifier": {
+        "entities": [
+          "internet"
+        ],
+        "evidence_quote": "cannot use without internet",
+        "intent": "complaint",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "aff8e054-b54f-4c96-98b9-3f8b8c02bd58",
+        "sentiment": -0.4,
+        "severity": 3,
+        "source_sha256": "a5199e3059cbc1575f033b1c2c483d22d4fe699684556290b3c35604b25442bc",
+        "status": "completed",
+        "topic": "playback"
+      }
+    },
+    {
+      "enricher": {
+        "entities": [],
+        "evidence_quote": "Easy n convenient to play",
+        "intent": "praise",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "18ec1211-9760-447b-821f-d783f4869988",
+        "sentiment": 0.7,
+        "severity": 1,
+        "source_sha256": "bd3d976502de063ff137e89c4b555c2007fcc8260e4b86d8921810974fa921c7",
+        "status": "completed",
+        "topic": "playback"
+      },
+      "fields": [
+        "topic"
+      ],
+      "review_id": "18ec1211-9760-447b-821f-d783f4869988",
+      "verifier": {
+        "entities": [],
+        "evidence_quote": "Easy n convenient to play",
+        "intent": "praise",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "18ec1211-9760-447b-821f-d783f4869988",
+        "sentiment": 1,
+        "severity": 1,
+        "source_sha256": "bd3d976502de063ff137e89c4b555c2007fcc8260e4b86d8921810974fa921c7",
+        "status": "completed",
+        "topic": "usability"
+      }
+    },
+    {
+      "enricher": {
+        "entities": [
+          "song controls",
+          "song change"
+        ],
+        "evidence_quote": "it won't let me change the song it forces me to finish the song that is playing",
+        "intent": "complaint",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "a85a903c-ba04-4eb8-846a-252369c38ec1",
+        "sentiment": -0.8,
+        "severity": 3,
+        "source_sha256": "dea5681aee5703bfce28bfd251d9dd85fb848c9103fbc0f30fbcfb59fda688ab",
+        "status": "completed",
+        "topic": "playback"
+      },
+      "fields": [
+        "topic"
+      ],
+      "review_id": "a85a903c-ba04-4eb8-846a-252369c38ec1",
+      "verifier": {
+        "entities": [
+          "song controls"
+        ],
+        "evidence_quote": "it won't let me change the song it forces me to finish the song that is playing",
+        "intent": "complaint",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "a85a903c-ba04-4eb8-846a-252369c38ec1",
+        "sentiment": -0.8,
+        "severity": 3,
+        "source_sha256": "dea5681aee5703bfce28bfd251d9dd85fb848c9103fbc0f30fbcfb59fda688ab",
+        "status": "completed",
+        "topic": "usability"
+      }
+    },
+    {
+      "enricher": {
+        "entities": [
+          "offline music",
+          "playback",
+          "login",
+          "pause",
+          "forward"
+        ],
+        "evidence_quote": "I can't play downloaded music and the music stops suddenly from time to time.",
+        "intent": "complaint",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "04a4fe81-02cc-475d-bca0-6c33219c39ed",
+        "sentiment": -1,
+        "severity": 3,
+        "source_sha256": "0cee823e3466c27c08a57cdc3d8dfa43a338168cd58527ce3a5e0950675168a7",
+        "status": "completed",
+        "topic": "playback"
+      },
+      "fields": [
+        "topic"
+      ],
+      "review_id": "04a4fe81-02cc-475d-bca0-6c33219c39ed",
+      "verifier": {
+        "entities": [
+          "offline app",
+          "downloaded music",
+          "playback",
+          "song controls",
+          "login"
+        ],
+        "evidence_quote": "Lots of problems with the offline app. I can't play downloaded music and the music stops suddenly from time to time. 08.03.2022 today I got logged out suddenly by Spotify and I could not log in for 3 hours. Since yesterday (13.07.2022) I can't pause or forward the music anymore. The only way to stop the music is to turn off the app. This is very strange and it annoys me so much.",
+        "intent": "complaint",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "04a4fe81-02cc-475d-bca0-6c33219c39ed",
+        "sentiment": -0.8,
+        "severity": 3,
+        "source_sha256": "0cee823e3466c27c08a57cdc3d8dfa43a338168cd58527ce3a5e0950675168a7",
+        "status": "completed",
+        "topic": "downloads"
+      }
+    },
+    {
+      "enricher": {
+        "entities": [
+          "group sharing"
+        ],
+        "evidence_quote": "Updating to be able to group share.",
+        "intent": "request",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "6c9f7552-e7db-47b1-b161-346172c2c298",
+        "sentiment": 0,
+        "severity": 1,
+        "source_sha256": "13e82b67326295645e5a5c9a97c1adcbf28a1f13f57d9ab3f7d5e84350528381",
+        "status": "completed",
+        "topic": "other"
+      },
+      "fields": [
+        "topic"
+      ],
+      "review_id": "6c9f7552-e7db-47b1-b161-346172c2c298",
+      "verifier": {
+        "entities": [
+          "group share"
+        ],
+        "evidence_quote": "Updating to be able to group share.",
+        "intent": "request",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "6c9f7552-e7db-47b1-b161-346172c2c298",
+        "sentiment": 0,
+        "severity": 1,
+        "source_sha256": "13e82b67326295645e5a5c9a97c1adcbf28a1f13f57d9ab3f7d5e84350528381",
+        "status": "completed",
+        "topic": "usability"
+      }
+    },
+    {
+      "enricher": {
+        "entities": [],
+        "evidence_quote": "Only 4 stars because there will always be room for improvement.",
+        "intent": "unclear",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "f017b8c1-50f9-478d-a71b-2a11bb59edf5",
+        "sentiment": 0,
+        "severity": 1,
+        "source_sha256": "cc7deb3508ef882e70bce6419e92923835c5003e019c84cca75e8556fe2cb759",
+        "status": "completed",
+        "topic": "other"
+      },
+      "fields": [
+        "intent"
+      ],
+      "review_id": "f017b8c1-50f9-478d-a71b-2a11bb59edf5",
+      "verifier": {
+        "entities": [],
+        "evidence_quote": "Only 4 stars because there will always be room for improvement.",
+        "intent": "praise",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "f017b8c1-50f9-478d-a71b-2a11bb59edf5",
+        "sentiment": 0.5,
+        "severity": 1,
+        "source_sha256": "cc7deb3508ef882e70bce6419e92923835c5003e019c84cca75e8556fe2cb759",
+        "status": "completed",
+        "topic": "other"
+      }
+    },
+    {
+      "enricher": {
+        "entities": [],
+        "evidence_quote": "Sometimes it doesn't really let me go out of i think it's werid",
+        "intent": "complaint",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": true,
+        "review_id": "89f970be-3ff7-414b-9d80-61584d28568c",
+        "sentiment": -0.3,
+        "severity": 2,
+        "source_sha256": "a1c1bcf3e97f87c7793f50806d29c438a32b22332e5fd1da5ec0e25b2aa991eb",
+        "status": "completed",
+        "topic": "usability"
+      },
+      "fields": [
+        "severity"
+      ],
+      "review_id": "89f970be-3ff7-414b-9d80-61584d28568c",
+      "verifier": {
+        "entities": [],
+        "evidence_quote": "Sometimes it doesn't really let me go out of i think it's werid",
+        "intent": "complaint",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": true,
+        "review_id": "89f970be-3ff7-414b-9d80-61584d28568c",
+        "sentiment": -0.5,
+        "severity": 3,
+        "source_sha256": "a1c1bcf3e97f87c7793f50806d29c438a32b22332e5fd1da5ec0e25b2aa991eb",
+        "status": "completed",
+        "topic": "usability"
+      }
+    },
+    {
+      "enricher": {
+        "entities": [
+          "monthly premium"
+        ],
+        "evidence_quote": "how to off this",
+        "intent": "request",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": true,
+        "review_id": "436e5cf1-2330-4d97-9d43-69dbbeccc8b2",
+        "sentiment": -0.2,
+        "severity": 1,
+        "source_sha256": "9510ccf6ca30cfca3cda6a32d85316f1b446f6c40d08b7ef2935d77ade9533c1",
+        "status": "completed",
+        "topic": "billing"
+      },
+      "fields": [
+        "intent",
+        "severity"
+      ],
+      "review_id": "436e5cf1-2330-4d97-9d43-69dbbeccc8b2",
+      "verifier": {
+        "entities": [
+          "monthly premium"
+        ],
+        "evidence_quote": "Tell i was not buying montly peremium, how to off this",
+        "intent": "cancellation",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": true,
+        "review_id": "436e5cf1-2330-4d97-9d43-69dbbeccc8b2",
+        "sentiment": -0.5,
+        "severity": 2,
+        "source_sha256": "9510ccf6ca30cfca3cda6a32d85316f1b446f6c40d08b7ef2935d77ade9533c1",
+        "status": "completed",
+        "topic": "billing"
+      }
+    },
+    {
+      "enricher": {
+        "entities": [
+          "audio quality"
+        ],
+        "evidence_quote": "Needs better audio quality.",
+        "intent": "complaint",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "36a617cf-9339-45bb-870b-48ea9734a823",
+        "sentiment": -0.5,
+        "severity": 2,
+        "source_sha256": "c2dc478bef7c70093bcdbcd5be83dcd6063d41eadccefcf3c43ff5ee15b9f34e",
+        "status": "completed",
+        "topic": "playback"
+      },
+      "fields": [
+        "intent",
+        "severity"
+      ],
+      "review_id": "36a617cf-9339-45bb-870b-48ea9734a823",
+      "verifier": {
+        "entities": [
+          "audio quality"
+        ],
+        "evidence_quote": "Needs better audio quality.",
+        "intent": "request",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "36a617cf-9339-45bb-870b-48ea9734a823",
+        "sentiment": 0,
+        "severity": 1,
+        "source_sha256": "c2dc478bef7c70093bcdbcd5be83dcd6063d41eadccefcf3c43ff5ee15b9f34e",
+        "status": "completed",
+        "topic": "playback"
+      }
+    },
+    {
+      "enricher": {
+        "cache_source_id": "b8acece5-1926-45a2-a21c-3dc0f006c977",
+        "entities": [],
+        "evidence_quote": "👌👌",
+        "intent": "praise",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "930b87e2-8764-4965-80eb-397e0f959d3e",
+        "sentiment": 0.6,
+        "severity": 1,
+        "source_sha256": "042a6a8bb1c019138d71c7c567c235f3245144cb52b7007cfc448b22f67daead",
+        "status": "completed",
+        "topic": "other"
+      },
+      "fields": [
+        "intent"
+      ],
+      "review_id": "930b87e2-8764-4965-80eb-397e0f959d3e",
+      "verifier": {
+        "entities": [],
+        "evidence_quote": "👌👌",
+        "intent": "unclear",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "930b87e2-8764-4965-80eb-397e0f959d3e",
+        "sentiment": 0.3,
+        "severity": 1,
+        "source_sha256": "042a6a8bb1c019138d71c7c567c235f3245144cb52b7007cfc448b22f67daead",
+        "status": "completed",
+        "topic": "other"
+      }
+    },
+    {
+      "enricher": {
+        "entities": [
+          "single song",
+          "full album"
+        ],
+        "evidence_quote": "There is no option to download single song. Download is available for full album Only.",
+        "intent": "request",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "1fc257e0-b6a8-4e32-983d-a00b2d6934fb",
+        "sentiment": -0.2,
+        "severity": 3,
+        "source_sha256": "b768f5a881cf36ce411c5917e110fc0d09753ea45788718e6259988662fdd3ee",
+        "status": "completed",
+        "topic": "downloads"
+      },
+      "fields": [
+        "intent"
+      ],
+      "review_id": "1fc257e0-b6a8-4e32-983d-a00b2d6934fb",
+      "verifier": {
+        "entities": [
+          "single song",
+          "album"
+        ],
+        "evidence_quote": "There is no option to download single song. Download is available for full album Only. So add icon to download one by one song.",
+        "intent": "complaint",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "1fc257e0-b6a8-4e32-983d-a00b2d6934fb",
+        "sentiment": -0.5,
+        "severity": 3,
+        "source_sha256": "b768f5a881cf36ce411c5917e110fc0d09753ea45788718e6259988662fdd3ee",
+        "status": "completed",
+        "topic": "downloads"
+      }
+    },
+    {
+      "enricher": {
+        "entities": [
+          "premium"
+        ],
+        "evidence_quote": "It's nice if u have premium",
+        "intent": "unclear",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "63061e2d-1103-4a45-804c-b2368c5a7c18",
+        "sentiment": 0.3,
+        "severity": 1,
+        "source_sha256": "54500b88bc9877527c40c68d57685d2933d4614980bda82bc9d18a63bd025e8b",
+        "status": "completed",
+        "topic": "other"
+      },
+      "fields": [
+        "intent"
+      ],
+      "review_id": "63061e2d-1103-4a45-804c-b2368c5a7c18",
+      "verifier": {
+        "entities": [
+          "premium"
+        ],
+        "evidence_quote": "It's nice if u have premium",
+        "intent": "praise",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "63061e2d-1103-4a45-804c-b2368c5a7c18",
+        "sentiment": 0.5,
+        "severity": 1,
+        "source_sha256": "54500b88bc9877527c40c68d57685d2933d4614980bda82bc9d18a63bd025e8b",
+        "status": "completed",
+        "topic": "other"
+      }
+    },
+    {
+      "enricher": {
+        "entities": [],
+        "evidence_quote": "I love the music in app it's really awesome",
+        "intent": "praise",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "cbfb01c7-e4ab-41ba-9da7-66702134544e",
+        "sentiment": 1,
+        "severity": 1,
+        "source_sha256": "ae5716afea966f7b2e8074a68360bbcdb76ade0efa4b88490ef55a61b24931a0",
+        "status": "completed",
+        "topic": "other"
+      },
+      "fields": [
+        "topic"
+      ],
+      "review_id": "cbfb01c7-e4ab-41ba-9da7-66702134544e",
+      "verifier": {
+        "entities": [],
+        "evidence_quote": "I love the music in app it's really awesome",
+        "intent": "praise",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "cbfb01c7-e4ab-41ba-9da7-66702134544e",
+        "sentiment": 1,
+        "severity": 1,
+        "source_sha256": "ae5716afea966f7b2e8074a68360bbcdb76ade0efa4b88490ef55a61b24931a0",
+        "status": "completed",
+        "topic": "catalog"
+      }
+    },
+    {
+      "enricher": {
+        "entities": [
+          "skips",
+          "rewinding",
+          "fast-forwarding"
+        ],
+        "evidence_quote": "It's not the ads because I get it, hustle, it's the fact you get limited skips, and no rewinding/fast-forwarding?!",
+        "intent": "complaint",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "2c1b2e1f-2b82-443e-81fb-f57138b4c743",
+        "sentiment": -0.5,
+        "severity": 3,
+        "source_sha256": "e40b092f3d6b1e3606e044c05afb502e2d866f65f73d23bc5813b5db97f240ee",
+        "status": "completed",
+        "topic": "playback"
+      },
+      "fields": [
+        "topic"
+      ],
+      "review_id": "2c1b2e1f-2b82-443e-81fb-f57138b4c743",
+      "verifier": {
+        "entities": [
+          "limited skips",
+          "rewinding",
+          "fast-forwarding"
+        ],
+        "evidence_quote": "you get limited skips, and no rewinding/fast-forwarding?!",
+        "intent": "complaint",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "2c1b2e1f-2b82-443e-81fb-f57138b4c743",
+        "sentiment": -0.3,
+        "severity": 3,
+        "source_sha256": "e40b092f3d6b1e3606e044c05afb502e2d866f65f73d23bc5813b5db97f240ee",
+        "status": "completed",
+        "topic": "usability"
+      }
+    },
+    {
+      "enricher": {
+        "entities": [],
+        "evidence_quote": "Practical",
+        "intent": "praise",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "5cedf835-e9ea-4785-9b32-c7a4b7f9eb45",
+        "sentiment": 0.3,
+        "severity": 1,
+        "source_sha256": "7d2a381d77f7ff50b75f54a7a3370bb7e08847172997af4ea16ee9197e6dddfd",
+        "status": "completed",
+        "topic": "other"
+      },
+      "fields": [
+        "intent"
+      ],
+      "review_id": "5cedf835-e9ea-4785-9b32-c7a4b7f9eb45",
+      "verifier": {
+        "entities": [],
+        "evidence_quote": "Practical",
+        "intent": "unclear",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": true,
+        "review_id": "5cedf835-e9ea-4785-9b32-c7a4b7f9eb45",
+        "sentiment": 0,
+        "severity": 1,
+        "source_sha256": "7d2a381d77f7ff50b75f54a7a3370bb7e08847172997af4ea16ee9197e6dddfd",
+        "status": "completed",
+        "topic": "other"
+      }
+    },
+    {
+      "enricher": {
+        "entities": [
+          "app screens"
+        ],
+        "evidence_quote": "It doesn't work at all, blank grey screens",
+        "intent": "complaint",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "dfd7a582-996a-4f76-9895-1d9ec3822926",
+        "sentiment": -0.8,
+        "severity": 4,
+        "source_sha256": "fed62e35aa3ee7bf2b1be8b48f9609a635d5c8ac7c119cac682a3bcf8f2d4734",
+        "status": "completed",
+        "topic": "usability"
+      },
+      "fields": [
+        "topic"
+      ],
+      "review_id": "dfd7a582-996a-4f76-9895-1d9ec3822926",
+      "verifier": {
+        "entities": [
+          "blank grey screens"
+        ],
+        "evidence_quote": "It doesn't work at all, blank grey screens",
+        "intent": "complaint",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "dfd7a582-996a-4f76-9895-1d9ec3822926",
+        "sentiment": -0.8,
+        "severity": 4,
+        "source_sha256": "fed62e35aa3ee7bf2b1be8b48f9609a635d5c8ac7c119cac682a3bcf8f2d4734",
+        "status": "completed",
+        "topic": "playback"
+      }
+    },
+    {
+      "enricher": {
+        "entities": [
+          "playlist"
+        ],
+        "evidence_quote": "I hate how in your playlist it plays random songs",
+        "intent": "complaint",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "d1121297-b01e-474f-937a-425ff633eb48",
+        "sentiment": -0.6,
+        "severity": 3,
+        "source_sha256": "98930ba370b7dfcfd4b4091591302763eaefa5ddcfb462d6c72d347a94e9203e",
+        "status": "completed",
+        "topic": "catalog"
+      },
+      "fields": [
+        "topic"
+      ],
+      "review_id": "d1121297-b01e-474f-937a-425ff633eb48",
+      "verifier": {
+        "entities": [
+          "playlist",
+          "shuffle"
+        ],
+        "evidence_quote": "I hate how in your playlist it plays random songs please change",
+        "intent": "complaint",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "d1121297-b01e-474f-937a-425ff633eb48",
+        "sentiment": -0.7,
+        "severity": 3,
+        "source_sha256": "98930ba370b7dfcfd4b4091591302763eaefa5ddcfb462d6c72d347a94e9203e",
+        "status": "completed",
+        "topic": "usability"
+      }
+    },
+    {
+      "enricher": {
+        "entities": [
+          "song controls",
+          "shuffle"
+        ],
+        "evidence_quote": "It doesnt let me play the song i want , it just shuffles to a diffrent sobg",
+        "intent": "complaint",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "95e6dd7d-8ef5-4ecc-8d96-0915dab47118",
+        "sentiment": -0.8,
+        "severity": 3,
+        "source_sha256": "0c00305a81638c0a6e4b33a3a31cf4d5dea1db5b58fec3a5a0aa176d9dfaaa87",
+        "status": "completed",
+        "topic": "playback"
+      },
+      "fields": [
+        "topic"
+      ],
+      "review_id": "95e6dd7d-8ef5-4ecc-8d96-0915dab47118",
+      "verifier": {
+        "entities": [
+          "song selection",
+          "shuffle"
+        ],
+        "evidence_quote": "It doesnt let me play the song i want , it just shuffles to a diffrent sobg please change this.",
+        "intent": "complaint",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "95e6dd7d-8ef5-4ecc-8d96-0915dab47118",
+        "sentiment": -0.8,
+        "severity": 3,
+        "source_sha256": "0c00305a81638c0a6e4b33a3a31cf4d5dea1db5b58fec3a5a0aa176d9dfaaa87",
+        "status": "completed",
+        "topic": "usability"
+      }
+    },
+    {
+      "enricher": {
+        "cache_source_id": "8f3df48c-8bbf-470a-8663-7c319b430f2f",
+        "entities": [],
+        "evidence_quote": "👍",
+        "intent": "praise",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "84dece3f-ec9a-4e11-9d85-d0a4a926edf9",
+        "sentiment": 0.7,
+        "severity": 1,
+        "source_sha256": "d489a878a29c89bfa4bf35445d939bb086cfa0648629f57c9c045498114aa298",
+        "status": "completed",
+        "topic": "other"
+      },
+      "fields": [
+        "intent"
+      ],
+      "review_id": "84dece3f-ec9a-4e11-9d85-d0a4a926edf9",
+      "verifier": {
+        "entities": [],
+        "evidence_quote": "👍",
+        "intent": "unclear",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "84dece3f-ec9a-4e11-9d85-d0a4a926edf9",
+        "sentiment": 0,
+        "severity": 1,
+        "source_sha256": "d489a878a29c89bfa4bf35445d939bb086cfa0648629f57c9c045498114aa298",
+        "status": "completed",
+        "topic": "other"
+      }
+    },
+    {
+      "enricher": {
+        "entities": [
+          "Google Pixel 6"
+        ],
+        "evidence_quote": "Always no internet connection!",
+        "intent": "complaint",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "1e876cdc-e9ae-46c8-9cef-e9bfa70cc2f2",
+        "sentiment": -0.9,
+        "severity": 3,
+        "source_sha256": "cf453bee5dbc7fe2a0f37c70b5bd0e259638eb0987d1817eaab209694c3f7e63",
+        "status": "completed",
+        "topic": "access"
+      },
+      "fields": [
+        "topic"
+      ],
+      "review_id": "1e876cdc-e9ae-46c8-9cef-e9bfa70cc2f2",
+      "verifier": {
+        "entities": [
+          "Google Pixel 6",
+          "internet connection",
+          "slow playback",
+          "jumpy playback"
+        ],
+        "evidence_quote": "Always no internet connection! WAKE UP!!! What is wrong with your app lately?? Been using it for years- and now the past 6months it's gone to rubbish! Never a connection found, and slow and jumpy....",
+        "intent": "complaint",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "1e876cdc-e9ae-46c8-9cef-e9bfa70cc2f2",
+        "sentiment": -0.9,
+        "severity": 3,
+        "source_sha256": "cf453bee5dbc7fe2a0f37c70b5bd0e259638eb0987d1817eaab209694c3f7e63",
+        "status": "completed",
+        "topic": "playback"
+      }
+    },
+    {
+      "enricher": {
+        "entities": [
+          "profiles",
+          "Premium"
+        ],
+        "evidence_quote": "I wish there was profiles for premium",
+        "intent": "request",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "0f657ef2-db80-449c-a6ce-792aa2ca7dc6",
+        "sentiment": 0.0,
+        "severity": 1,
+        "source_sha256": "f666a008ab67362068a648cef5b598f71fdf0ab0600c38e2ec045816d9efd766",
+        "status": "completed",
+        "topic": "billing"
+      },
+      "fields": [
+        "topic"
+      ],
+      "review_id": "0f657ef2-db80-449c-a6ce-792aa2ca7dc6",
+      "verifier": {
+        "entities": [
+          "profiles",
+          "premium"
+        ],
+        "evidence_quote": "I wish there was profiles for premium",
+        "intent": "request",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "0f657ef2-db80-449c-a6ce-792aa2ca7dc6",
+        "sentiment": 0.5,
+        "severity": 1,
+        "source_sha256": "f666a008ab67362068a648cef5b598f71fdf0ab0600c38e2ec045816d9efd766",
+        "status": "completed",
+        "topic": "usability"
+      }
+    },
+    {
+      "enricher": {
+        "entities": [
+          "ad-free music"
+        ],
+        "evidence_quote": "Sometimes the 30m of ad free music dosent work and i get an ad right after it but other than that its ok",
+        "intent": "complaint",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "dddf848a-776f-4494-ab29-8411bee31986",
+        "sentiment": -0.4,
+        "severity": 2,
+        "source_sha256": "ca24e3fc6b1ba8061e9e6c602cced32230accd86ad429cebcc877f89fd8b9c93",
+        "status": "completed",
+        "topic": "usability"
+      },
+      "fields": [
+        "severity"
+      ],
+      "review_id": "dddf848a-776f-4494-ab29-8411bee31986",
+      "verifier": {
+        "entities": [
+          "ad-free music",
+          "ads"
+        ],
+        "evidence_quote": "Sometimes the 30m of ad free music dosent work and i get an ad right after it",
+        "intent": "complaint",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "dddf848a-776f-4494-ab29-8411bee31986",
+        "sentiment": -0.4,
+        "severity": 3,
+        "source_sha256": "ca24e3fc6b1ba8061e9e6c602cced32230accd86ad429cebcc877f89fd8b9c93",
+        "status": "completed",
+        "topic": "usability"
+      }
+    },
+    {
+      "enricher": {
+        "entities": [
+          "Liked Songs"
+        ],
+        "evidence_quote": "My \"Liked Songs\" playlist won't load.",
+        "intent": "cancellation",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "0b974467-c832-4184-99b0-5fc125286ca0",
+        "sentiment": -0.8,
+        "severity": 3,
+        "source_sha256": "6e3209b2170ff1e710035d76445a480c3dc690e582c9102d34863fd464d5ea07",
+        "status": "completed",
+        "topic": "catalog"
+      },
+      "fields": [
+        "topic",
+        "intent"
+      ],
+      "review_id": "0b974467-c832-4184-99b0-5fc125286ca0",
+      "verifier": {
+        "entities": [
+          "Liked Songs"
+        ],
+        "evidence_quote": "My \"Liked Songs\" playlist won't load. Nothing at all.",
+        "intent": "complaint",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "0b974467-c832-4184-99b0-5fc125286ca0",
+        "sentiment": -0.9,
+        "severity": 3,
+        "source_sha256": "6e3209b2170ff1e710035d76445a480c3dc690e582c9102d34863fd464d5ea07",
+        "status": "completed",
+        "topic": "playback"
+      }
+    },
+    {
+      "enricher": {
+        "entities": [
+          "music variety",
+          "COVID ads",
+          "music ads"
+        ],
+        "evidence_quote": "there are too many covid ads and ads for music that just plain sucks.",
+        "intent": "complaint",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "15e48da5-2680-4f49-9ec1-66185cf03fce",
+        "sentiment": 0.3,
+        "severity": 2,
+        "source_sha256": "e95df6d553cb0ce24fa4367780e519588561483956b330e4178c929db263f2ae",
+        "status": "completed",
+        "topic": "catalog"
+      },
+      "fields": [
+        "topic"
+      ],
+      "review_id": "15e48da5-2680-4f49-9ec1-66185cf03fce",
+      "verifier": {
+        "entities": [
+          "ads",
+          "COVID ads",
+          "music ads"
+        ],
+        "evidence_quote": "there are too many covid ads and ads for music that just plain sucks.",
+        "intent": "complaint",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "15e48da5-2680-4f49-9ec1-66185cf03fce",
+        "sentiment": 0.1,
+        "severity": 2,
+        "source_sha256": "e95df6d553cb0ce24fa4367780e519588561483956b330e4178c929db263f2ae",
+        "status": "completed",
+        "topic": "usability"
+      }
+    },
+    {
+      "enricher": {
+        "entities": [],
+        "evidence_quote": "The best its so flowful and so smooth",
+        "intent": "praise",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "da533cd8-a40b-4535-99f4-73116aa80615",
+        "sentiment": 0.9,
+        "severity": 1,
+        "source_sha256": "4bc4ada4accf20a8c107ad20a80c0fd9f492e91ca0daaf7c09cd4d4bd6c9f3e3",
+        "status": "completed",
+        "topic": "other"
+      },
+      "fields": [
+        "topic"
+      ],
+      "review_id": "da533cd8-a40b-4535-99f4-73116aa80615",
+      "verifier": {
+        "entities": [
+          "smooth playback"
+        ],
+        "evidence_quote": "ITZ The best its so flowful and so smooth",
+        "intent": "praise",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "da533cd8-a40b-4535-99f4-73116aa80615",
+        "sentiment": 0.9,
+        "severity": 1,
+        "source_sha256": "4bc4ada4accf20a8c107ad20a80c0fd9f492e91ca0daaf7c09cd4d4bd6c9f3e3",
+        "status": "completed",
+        "topic": "playback"
+      }
+    },
+    {
+      "enricher": {
+        "entities": [
+          "Joe Rogan"
+        ],
+        "evidence_quote": "Spotify has shown money is more important than ethics. Joe rogan is a dbag.",
+        "intent": "complaint",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "72836f7a-2f0f-4262-b6e4-2111f4503665",
+        "sentiment": -0.8,
+        "severity": 2,
+        "source_sha256": "846290be6f2ad4ba645d371a1ab2503d07d33ef77ce0d9d6149e301d852e1c8e",
+        "status": "completed",
+        "topic": "other"
+      },
+      "fields": [
+        "topic"
+      ],
+      "review_id": "72836f7a-2f0f-4262-b6e4-2111f4503665",
+      "verifier": {
+        "entities": [
+          "Joe Rogan"
+        ],
+        "evidence_quote": "Spotify has shown money is more important than ethics. Joe rogan is a dbag.",
+        "intent": "complaint",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "72836f7a-2f0f-4262-b6e4-2111f4503665",
+        "sentiment": -0.7,
+        "severity": 2,
+        "source_sha256": "846290be6f2ad4ba645d371a1ab2503d07d33ef77ce0d9d6149e301d852e1c8e",
+        "status": "completed",
+        "topic": "catalog"
+      }
+    },
+    {
+      "enricher": {
+        "entities": [
+          "lyrics",
+          "background color"
+        ],
+        "evidence_quote": "Please change it to softer color.",
+        "intent": "request",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "c7d7e51e-fe0f-42a0-883c-0aedd967742b",
+        "sentiment": -0.4,
+        "severity": 2,
+        "source_sha256": "94f93164e1fb2fb008df320f561fd426e313e80789f4a7c519ee7d39791d9a32",
+        "status": "completed",
+        "topic": "catalog"
+      },
+      "fields": [
+        "topic"
+      ],
+      "review_id": "c7d7e51e-fe0f-42a0-883c-0aedd967742b",
+      "verifier": {
+        "entities": [
+          "lyrics",
+          "background color",
+          "desktop"
+        ],
+        "evidence_quote": "Please change it to softer color.",
+        "intent": "request",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "c7d7e51e-fe0f-42a0-883c-0aedd967742b",
+        "sentiment": -0.3,
+        "severity": 2,
+        "source_sha256": "94f93164e1fb2fb008df320f561fd426e313e80789f4a7c519ee7d39791d9a32",
+        "status": "completed",
+        "topic": "usability"
+      }
+    },
+    {
+      "enricher": {
+        "entities": [
+          "song preview",
+          "playlists",
+          "recommended music"
+        ],
+        "evidence_quote": "They removed one of the features that I used the most and I hate it. The preview the song before adding it to the playlist was what I used to add new music that was recommended to me by spotify, now I see that it's like \"hey you may like this song\" but now I have to add the song to my playlist, listen to it and then delete it if I dont like it, when before I could listen to like 3 seconds to know if it's my kind of song . Bring that features back!",
+        "intent": "complaint",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "229d016a-73d6-488a-a528-a0337eeb4fab",
+        "sentiment": -0.8,
+        "severity": 3,
+        "source_sha256": "14f6e45eaca9eb4fcc18873c87efb97e7582438fdb676a87c57eea0a0cba9773",
+        "status": "completed",
+        "topic": "usability"
+      },
+      "fields": [
+        "topic"
+      ],
+      "review_id": "229d016a-73d6-488a-a528-a0337eeb4fab",
+      "verifier": {
+        "entities": [
+          "song previews",
+          "playlist"
+        ],
+        "evidence_quote": "They removed one of the features that I used the most",
+        "intent": "complaint",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "229d016a-73d6-488a-a528-a0337eeb4fab",
+        "sentiment": -0.8,
+        "severity": 3,
+        "source_sha256": "14f6e45eaca9eb4fcc18873c87efb97e7582438fdb676a87c57eea0a0cba9773",
+        "status": "completed",
+        "topic": "catalog"
+      }
+    },
+    {
+      "enricher": {
+        "entities": [
+          "2022 update"
+        ],
+        "evidence_quote": "2022 update is horrible",
+        "intent": "complaint",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "32899569-ffa2-4164-9d54-03f10b96c401",
+        "sentiment": -0.6,
+        "severity": 2,
+        "source_sha256": "035f122f01bd5507fc7e6994d44287fba239b0a8b88acf817af5b6618a9ce83d",
+        "status": "completed",
+        "topic": "usability"
+      },
+      "fields": [
+        "topic"
+      ],
+      "review_id": "32899569-ffa2-4164-9d54-03f10b96c401",
+      "verifier": {
+        "entities": [
+          "2022 update"
+        ],
+        "evidence_quote": "2022 update is horrible",
+        "intent": "complaint",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "32899569-ffa2-4164-9d54-03f10b96c401",
+        "sentiment": -1,
+        "severity": 2,
+        "source_sha256": "035f122f01bd5507fc7e6994d44287fba239b0a8b88acf817af5b6618a9ce83d",
+        "status": "completed",
+        "topic": "other"
+      }
+    },
+    {
+      "enricher": {
+        "entities": [],
+        "evidence_quote": "Op ✌️💖",
+        "intent": "praise",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "9c48c14e-f766-48e8-b5ec-951d9b71d8e3",
+        "sentiment": 0.8,
+        "severity": 1,
+        "source_sha256": "b72099d7b9eb5b11fc35f09e763d9bcb3dc2285a9316800e89456890e202e17a",
+        "status": "completed",
+        "topic": "other"
+      },
+      "fields": [
+        "intent"
+      ],
+      "review_id": "9c48c14e-f766-48e8-b5ec-951d9b71d8e3",
+      "verifier": {
+        "entities": [],
+        "evidence_quote": "Op ✌️💖",
+        "intent": "unclear",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": true,
+        "review_id": "9c48c14e-f766-48e8-b5ec-951d9b71d8e3",
+        "sentiment": 0,
+        "severity": 1,
+        "source_sha256": "b72099d7b9eb5b11fc35f09e763d9bcb3dc2285a9316800e89456890e202e17a",
+        "status": "completed",
+        "topic": "other"
+      }
+    },
+    {
+      "enricher": {
+        "entities": [
+          "music"
+        ],
+        "evidence_quote": "I go to sleep with music n it relaxed me thanks",
+        "intent": "praise",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "d7581b53-76a4-486e-a06a-31983f299e79",
+        "sentiment": 1,
+        "severity": 1,
+        "source_sha256": "202e20384e0d8811aad10aba1deb76a2a7da0a8afeb4894d7c758819b64524ae",
+        "status": "completed",
+        "topic": "playback"
+      },
+      "fields": [
+        "topic"
+      ],
+      "review_id": "d7581b53-76a4-486e-a06a-31983f299e79",
+      "verifier": {
+        "entities": [],
+        "evidence_quote": "I go to sleep with music n it relaxed me thanks",
+        "intent": "praise",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "d7581b53-76a4-486e-a06a-31983f299e79",
+        "sentiment": 1,
+        "severity": 1,
+        "source_sha256": "202e20384e0d8811aad10aba1deb76a2a7da0a8afeb4894d7c758819b64524ae",
+        "status": "completed",
+        "topic": "other"
+      }
+    },
+    {
+      "enricher": {
+        "entities": [
+          "skip limit",
+          "playlists",
+          "Premium"
+        ],
+        "evidence_quote": "No you only get 6 skips per hour Playlists aren't a thing unless your premium.",
+        "intent": "complaint",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "d1967126-67c7-4165-877f-ee969a419a99",
+        "sentiment": -0.8,
+        "severity": 3,
+        "source_sha256": "65fc4446a65c8eb5f8b3305e3e98cc405be41f7072fbf7b4287fd75d3f9312fd",
+        "status": "completed",
+        "topic": "billing"
+      },
+      "fields": [
+        "topic"
+      ],
+      "review_id": "d1967126-67c7-4165-877f-ee969a419a99",
+      "verifier": {
+        "entities": [
+          "skip limits",
+          "playlists",
+          "Premium"
+        ],
+        "evidence_quote": "No you only get 6 skips per hour Playlists aren't a thing unless your premium.",
+        "intent": "complaint",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "d1967126-67c7-4165-877f-ee969a419a99",
+        "sentiment": -0.7,
+        "severity": 3,
+        "source_sha256": "65fc4446a65c8eb5f8b3305e3e98cc405be41f7072fbf7b4287fd75d3f9312fd",
+        "status": "completed",
+        "topic": "usability"
+      }
+    },
+    {
+      "enricher": {
+        "entities": [
+          "mobile",
+          "song previews"
+        ],
+        "evidence_quote": "you can't play songs it just gives you a preview",
+        "intent": "complaint",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "d44bfaec-38d0-4c83-99c5-958de88dc013",
+        "sentiment": -0.4,
+        "severity": 3,
+        "source_sha256": "1a07dcd83ac7d8182bf5527d6b71104cf9a4baab6ed36603d63d047b43ec89ac",
+        "status": "completed",
+        "topic": "playback"
+      },
+      "fields": [
+        "topic"
+      ],
+      "review_id": "d44bfaec-38d0-4c83-99c5-958de88dc013",
+      "verifier": {
+        "entities": [
+          "mobile",
+          "song playback",
+          "previews"
+        ],
+        "evidence_quote": "you can't play songs it just gives you a preview",
+        "intent": "complaint",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "d44bfaec-38d0-4c83-99c5-958de88dc013",
+        "sentiment": -0.3,
+        "severity": 3,
+        "source_sha256": "1a07dcd83ac7d8182bf5527d6b71104cf9a4baab6ed36603d63d047b43ec89ac",
+        "status": "completed",
+        "topic": "usability"
+      }
+    },
+    {
+      "enricher": {
+        "entities": [
+          "songs"
+        ],
+        "evidence_quote": "Songs I remember and can relate to.",
+        "intent": "praise",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": false,
+        "review_id": "ebaab627-2ea9-43d9-97ee-440376063d84",
+        "sentiment": 0.7,
+        "severity": 1,
+        "source_sha256": "a6f3be8abc3252ef738dd37aef45f92eb760683fd55ae30bdebe5327f84b2f2b",
+        "status": "completed",
+        "topic": "catalog"
+      },
+      "fields": [
+        "intent"
+      ],
+      "review_id": "ebaab627-2ea9-43d9-97ee-440376063d84",
+      "verifier": {
+        "entities": [
+          "songs"
+        ],
+        "evidence_quote": "Songs I remember and can relate to.",
+        "intent": "unclear",
+        "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+        "needs_review": true,
+        "review_id": "ebaab627-2ea9-43d9-97ee-440376063d84",
+        "sentiment": 0,
+        "severity": 1,
+        "source_sha256": "a6f3be8abc3252ef738dd37aef45f92eb760683fd55ae30bdebe5327f84b2f2b",
+        "status": "completed",
+        "topic": "catalog"
+      }
+    }
+  ],
+  "sample_size": 1000
+}

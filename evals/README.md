@@ -1,9 +1,11 @@
 # Evaluation workflow
 
-`golden_50_to_label.csv` is intentionally blank. The student must label it before model evaluation; assistant-
-generated labels are not human labels and must not be represented as such.
+`golden_50_to_label.csv` contains the completed and rubric-adjudicated human labels used for the final
+evaluation. The expected columns were never supplied to the model. `golden_results_v1_adjudicated.json` and
+`golden_results_v2.json` contain the comparable model results, and `golden_error_analysis.md` documents the
+disagreements and prompt changes.
 
-After the real provider predicts these 50 reviews into a separate run directory:
+To evaluate a saved prediction file without making model calls:
 
 ```bash
 PYTHONPATH=src python3 -m spotify_audit.cli evaluate \
@@ -13,4 +15,3 @@ PYTHONPATH=src python3 -m spotify_audit.cli evaluate \
 ```
 
 Do not use the expected columns as model inputs. Save ambiguous cases and concrete disagreements.
-

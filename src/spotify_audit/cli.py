@@ -10,7 +10,7 @@ from .database import build_database
 from .evaluation import evaluate_golden
 from .export import export_grading
 from .io_utils import atomic_json, profile_csv, select_nonempty
-from .pipeline import run_pipeline
+from .pipeline import rebuild_ranking, run_pipeline
 from .server import serve
 
 
@@ -26,6 +26,7 @@ def parser() -> argparse.ArgumentParser:
     run.add_argument("--provider", choices=("heuristic", "openai"), default="heuristic")
     run.add_argument("--batch-size", type=int, default=25); run.add_argument("--verify-count", type=int, default=10)
     run.add_argument("--phase", choices=("initial", "resume"), default="initial"); run.add_argument("--max-records", type=int)
+    run.add_argument("--workers", type=int, default=1)
     run.add_argument("--allow-paid", action="store_true")
     db = commands.add_parser("database")
     db.add_argument("--input", required=True); db.add_argument("--run-dir", required=True); db.add_argument("--database", required=True)
@@ -37,6 +38,8 @@ def parser() -> argparse.ArgumentParser:
     evaluation.add_argument("--golden", required=True); evaluation.add_argument("--predictions", required=True); evaluation.add_argument("--out", required=True)
     export = commands.add_parser("export")
     export.add_argument("--input", required=True); export.add_argument("--run-dir", required=True); export.add_argument("--grading-dir", required=True)
+    rerank = commands.add_parser("rerank")
+    rerank.add_argument("--input", required=True); rerank.add_argument("--run-dir", required=True)
     return root
 
 
@@ -49,7 +52,7 @@ def main() -> None:
     elif args.command == "run":
         if args.allow_paid:
             os.environ["ALLOW_PAID_MODEL_CALLS"] = "yes"
-        result = run_pipeline(args.input, args.run_dir, args.provider, args.batch_size, args.verify_count, args.phase, args.max_records)
+        result = run_pipeline(args.input, args.run_dir, args.provider, args.batch_size, args.verify_count, args.phase, args.max_records, args.workers)
     elif args.command == "database":
         result = build_database(args.input, args.run_dir, args.database)
     elif args.command == "cost":
@@ -60,6 +63,8 @@ def main() -> None:
         result = evaluate_golden(args.golden, args.predictions, args.out)
     elif args.command == "export":
         result = export_grading(args.input, args.run_dir, args.grading_dir)
+    elif args.command == "rerank":
+        result = rebuild_ranking(args.input, args.run_dir)
     else:
         raise AssertionError(args.command)
     print(json.dumps(result, indent=2))

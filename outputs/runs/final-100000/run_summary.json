@@ -1,0 +1,14 @@
+{
+  "completed": 100000,
+  "elapsed_seconds": 614.162199,
+  "failures_this_run": 0,
+  "input_csv": "data/analysis_100000.csv",
+  "issue_count": 21,
+  "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1",
+  "memo": "outputs/runs/final-100000/memo.md",
+  "provider": "openai",
+  "quarantined": 0,
+  "source_records": 100000,
+  "verification_disagreements": 135,
+  "verification_sample": 1000
+}

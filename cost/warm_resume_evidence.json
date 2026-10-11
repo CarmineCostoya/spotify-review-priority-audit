@@ -1,0 +1,9 @@
+{
+  "completed_records": 100,
+  "cold_enrichment_calls": 10,
+  "warm_enrichment_calls": 0,
+  "warm_verification_calls": 1,
+  "cold_elapsed_seconds": 73.974071,
+  "warm_elapsed_seconds": 6.964378,
+  "label_config": "gpt-6-luna+effort-none+labels-v2+record-v1"
+}

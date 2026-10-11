@@ -15,22 +15,36 @@
 - Ran the supplied checker against the 100,000-record development export: `status=pass`, full coverage,
   24,106 valid exact-text cache reuses, and no mechanical issues.
 - Prepared and validated the Sites dashboard build.
+- Completed and evaluated the human-labeled Golden 50; the V2 prompt reached 94% topic, 92% intent, and 86%
+  exact severity agreement.
+- Ran the paid 100-review V2 pilot: 100 completed, zero quarantined, and zero verifier disagreements in the
+  10-review sample.
+- Demonstrated warm resume behavior with zero new enrichment calls and measured a $5.32 variable-cost
+  projection for 100,000 reviews.
+- Completed the real 500-review V2 checkpoint with zero quarantines, five disagreements in a 50-review
+  verification sample, and $0.021236 measured API cost.
+- Completed the real 10,000-review V2 checkpoint with zero quarantines, 14 disagreements in a 100-review
+  verification sample, 1,852 exact-text cache reuses, and $0.375971 logged successful-call cost.
+- Validated all 10,000 results against their source hashes, schemas, and exact evidence quotes; the updated
+  variable-cost projection for 100,000 reviews is $4.61.
+- Completed the official 100,000-review V2 model run: 100,000 completed, zero quarantined, 24,106 exact-text
+  cache reuses, and 135 disagreements in the independent 1,000-review verification sample.
+- Logged $3.523864 of successful-call usage and preserved the interrupted/resumed execution evidence.
+- Replaced the development grading export with the official model results. The supplied deterministic checker
+  returns `status=pass`, full coverage, and no mechanical issues.
+- Validated every official record against its source hash, schema, and exact evidence quote; rebuilt SQLite
+  with 100,000 completed reviews and 21 ranked issues; all 8 automated tests pass.
+- Corrected an advertising subgroup word-boundary defect found during memo review, reran deterministic grouping
+  and ranking without model calls, and updated the final memo and traceable claims.
+- Rebuilt the README as the grader entry point with final results, reproducible commands, trace examples,
+  evaluation/cost/recovery evidence, limitations, and a complete rubric-to-evidence map.
+- Published the repository at `https://github.com/CarmineCostoya/spotify-review-priority-audit` and the
+  database-backed dashboard at `https://spotify-review-priority-audit.ccostoyaruiz.chatgpt.site`.
 
 ## Required before submission
 
-1. The student must hand-label `evals/golden_50_to_label.csv`.
-2. Configure a model-provider key locally and run the real 100-review cold/warm pilot.
-3. Review golden results and revise/freeze prompts using development data only.
-4. Run real 500 and 10,000 checkpoints, refresh the cost projection, and approve the budget.
-5. Run the real 100,000-review model pipeline and replace development exports.
-6. Inspect disagreements, ambiguous outputs, and top issue examples; finalize the memo.
-7. Publish the GitHub repository and a database-backed dashboard, then test both while signed out.
-8. Record the interruption/resume demonstration and link it in the README.
+1. Record the interruption/resume demonstration and link it in the README.
 
 ## Current blockers
 
-- No `OPENAI_API_KEY`, `ANTHROPIC_API_KEY`, or `TYPESAFE_API_KEY` is configured.
-- GitHub access is not connected and the `gh` CLI is unavailable.
-- External Sites publication needs explicit approval because it transmits dataset-derived metrics and
-  recommendations to the hosted repository.
-
+- No implementation or publication blocker remains.

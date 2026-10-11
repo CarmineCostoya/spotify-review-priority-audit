@@ -1,0 +1,13 @@
+claim_id,issue_id,metric,value
+CLAIM-001,USABILITY-ADS,complaint_count,10
+CLAIM-002,USABILITY-ADS,severity_sum,23
+CLAIM-003,USABILITY-ADS,mean_severity,2.300000
+CLAIM-004,USABILITY-ADS,priority_score,23
+CLAIM-005,OTHER-GENERAL,complaint_count,10
+CLAIM-006,OTHER-GENERAL,severity_sum,20
+CLAIM-007,OTHER-GENERAL,mean_severity,2.000000
+CLAIM-008,OTHER-GENERAL,priority_score,20
+CLAIM-009,CATALOG-CONTENT,complaint_count,5
+CLAIM-010,CATALOG-CONTENT,severity_sum,15
+CLAIM-011,CATALOG-CONTENT,mean_severity,3.000000
+CLAIM-012,CATALOG-CONTENT,priority_score,15

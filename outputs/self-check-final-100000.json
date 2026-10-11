@@ -1,0 +1,220 @@
+{
+  "audit_script_sha256": "d60bd66d84922d934c65b3d42b2c7d36cc738e8c75e2d6f2b2f58bca3141c26d",
+  "audit_version": "a5-audit-v1",
+  "automatic_grade": null,
+  "calculated_ranking": [
+    {
+      "complaint_count": 6887,
+      "issue_id": "PLAYBACK-GENERAL",
+      "mean_severity": "3.195876",
+      "priority_score": 22010,
+      "rank": 1,
+      "severity_sum": 22010
+    },
+    {
+      "complaint_count": 4783,
+      "issue_id": "USABILITY-GENERAL",
+      "mean_severity": "2.604432",
+      "priority_score": 12457,
+      "rank": 2,
+      "severity_sum": 12457
+    },
+    {
+      "complaint_count": 4494,
+      "issue_id": "USABILITY-ADS",
+      "mean_severity": "2.158656",
+      "priority_score": 9701,
+      "rank": 3,
+      "severity_sum": 9701
+    },
+    {
+      "complaint_count": 2158,
+      "issue_id": "CATALOG-CONTENT",
+      "mean_severity": "2.924004",
+      "priority_score": 6310,
+      "rank": 4,
+      "severity_sum": 6310
+    },
+    {
+      "complaint_count": 1917,
+      "issue_id": "PLAYBACK-STOPS",
+      "mean_severity": "3.089202",
+      "priority_score": 5922,
+      "rank": 5,
+      "severity_sum": 5922
+    },
+    {
+      "complaint_count": 1580,
+      "issue_id": "BILLING-GENERAL",
+      "mean_severity": "2.834810",
+      "priority_score": 4479,
+      "rank": 6,
+      "severity_sum": 4479
+    },
+    {
+      "complaint_count": 2042,
+      "issue_id": "OTHER-GENERAL",
+      "mean_severity": "2.081783",
+      "priority_score": 4251,
+      "rank": 7,
+      "severity_sum": 4251
+    },
+    {
+      "complaint_count": 1345,
+      "issue_id": "USABILITY-QUEUE",
+      "mean_severity": "2.962825",
+      "priority_score": 3985,
+      "rank": 8,
+      "severity_sum": 3985
+    },
+    {
+      "complaint_count": 1203,
+      "issue_id": "PLAYBACK-CRASH",
+      "mean_severity": "3.234414",
+      "priority_score": 3891,
+      "rank": 9,
+      "severity_sum": 3891
+    },
+    {
+      "complaint_count": 832,
+      "issue_id": "ACCESS-GENERAL",
+      "mean_severity": "3.460337",
+      "priority_score": 2879,
+      "rank": 10,
+      "severity_sum": 2879
+    },
+    {
+      "complaint_count": 929,
+      "issue_id": "DOWNLOADS-GENERAL",
+      "mean_severity": "2.991389",
+      "priority_score": 2779,
+      "rank": 11,
+      "severity_sum": 2779
+    },
+    {
+      "complaint_count": 882,
+      "issue_id": "CATALOG-GENERAL",
+      "mean_severity": "2.744898",
+      "priority_score": 2421,
+      "rank": 12,
+      "severity_sum": 2421
+    },
+    {
+      "complaint_count": 526,
+      "issue_id": "ACCESS-LOGIN",
+      "mean_severity": "3.828897",
+      "priority_score": 2014,
+      "rank": 13,
+      "severity_sum": 2014
+    },
+    {
+      "complaint_count": 406,
+      "issue_id": "DOWNLOADS-OFFLINE",
+      "mean_severity": "3.000000",
+      "priority_score": 1218,
+      "rank": 14,
+      "severity_sum": 1218
+    },
+    {
+      "complaint_count": 368,
+      "issue_id": "CATALOG-SEARCH",
+      "mean_severity": "2.970109",
+      "priority_score": 1093,
+      "rank": 15,
+      "severity_sum": 1093
+    },
+    {
+      "complaint_count": 211,
+      "issue_id": "ACCESS-ACCOUNT",
+      "mean_severity": "3.526066",
+      "priority_score": 744,
+      "rank": 16,
+      "severity_sum": 744
+    },
+    {
+      "complaint_count": 89,
+      "issue_id": "BILLING-CHARGE",
+      "mean_severity": "4.292135",
+      "priority_score": 382,
+      "rank": 17,
+      "severity_sum": 382
+    },
+    {
+      "complaint_count": 139,
+      "issue_id": "BILLING-PRICE",
+      "mean_severity": "2.172662",
+      "priority_score": 302,
+      "rank": 18,
+      "severity_sum": 302
+    },
+    {
+      "complaint_count": 66,
+      "issue_id": "SUPPORT-GENERAL",
+      "mean_severity": "2.803030",
+      "priority_score": 185,
+      "rank": 19,
+      "severity_sum": 185
+    },
+    {
+      "complaint_count": 28,
+      "issue_id": "DOWNLOADS-MISSING",
+      "mean_severity": "3.178571",
+      "priority_score": 89,
+      "rank": 20,
+      "severity_sum": 89
+    },
+    {
+      "complaint_count": 19,
+      "issue_id": "SUPPORT-RESPONSE",
+      "mean_severity": "2.947368",
+      "priority_score": 56,
+      "rank": 21,
+      "severity_sum": 56
+    }
+  ],
+  "coverage": {
+    "accounted_fraction": 1.0,
+    "duplicate_ids": 0,
+    "expected": 100000,
+    "invalid_or_unresolved": 0,
+    "labelable": 100000,
+    "labelable_completion_fraction": 1.0,
+    "missing": 0,
+    "quarantined": 0,
+    "received_lines": 100000,
+    "unique_expected_ids": 100000,
+    "valid_cache_reuses": 24106,
+    "valid_completed": 100000,
+    "valid_completion_fraction": 1.0
+  },
+  "examples": [],
+  "hash_convention": "Reference/benchmark: canonical UTF-8 JSON via canonical(); input files and audit script: exact bytes.",
+  "input_files_sha256": {
+    "calls.jsonl": "c548943d17804c61b0e0206a69f6fc1fb7dc231e2951a1bf2d93854dc11095fb",
+    "checkpoint_after.json": "4d498ed81f5e0e84c05eff44e1813b03a95050b33d15954f207d1471b1568513",
+    "checkpoint_before.json": "763581511403316000a9b1073ef056894dd1ef466604f24d2c49c89593f18aa1",
+    "claims.csv": "2632cdecf04b3448d9cd30f9e1ae847bec1c3966f362068b0ad5c925a86a1c11",
+    "ingestion.json": "5512dd793b0bde3bd51f28b20b440108f3c9bab31233819bea5f32ce19482153",
+    "membership.csv": "94ff22f020da2f2203514322bcbb1a67aa44affe8cf7ed4ca2f940632570259e",
+    "ranking.csv": "cc8514912d034114f7bcf4cbf1c48011e11b14f82402addc7877b05fc21db6ed",
+    "records.jsonl": "6fe9c0a32f6e729b0931df8647c325088c6fe1c40e8077258f4817dee89938bc",
+    "run.json": "940d50555bb11d18a69b3073a0f7a17e4f5800c42dad354f5451bf74e9a6d46f"
+  },
+  "issue_counts": {},
+  "limits": [
+    "Artifacts do not prove actual model execution, authorship, cost, or independent verification.",
+    "Exact quote membership does not prove that the quote supports the label.",
+    "Claims export checks numbers; a person must check that all memo claims are represented.",
+    "Benchmark agreement is diagnostic; final 4/3/3 grades require rubric review."
+  ],
+  "quality": {
+    "official": false,
+    "status": "not_supplied"
+  },
+  "reference_sha256": "a01c90bf794a4cdc5ff714b75c4ce79e495c91fa57d175a4a9c2541e50ddd40c",
+  "reported_calls": 3992,
+  "reported_input_tokens": 6266495,
+  "reported_output_tokens": 5794764,
+  "status": "pass",
+  "working_coverage_point_candidate": 1.0
+}
