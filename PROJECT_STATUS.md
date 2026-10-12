@@ -40,10 +40,12 @@
   evaluation/cost/recovery evidence, limitations, and a complete rubric-to-evidence map.
 - Published the repository at `https://github.com/CarmineCostoya/spotify-review-priority-audit` and the
   database-backed dashboard at `https://spotify-review-priority-audit.ccostoyaruiz.chatgpt.site`.
+- Recorded and linked the interruption/resume demonstration, including checkpoint growth and zero
+  re-enrichment of previously completed IDs.
 
 ## Required before submission
 
-1. Record the interruption/resume demonstration and link it in the README.
+- No project work remains before submission.
 
 ## Current blockers
 

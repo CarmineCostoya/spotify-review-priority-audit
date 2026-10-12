@@ -51,6 +51,7 @@ this case.
 
 - **Public GitHub repository:** https://github.com/CarmineCostoya/spotify-review-priority-audit
 - **Live database-backed dashboard:** https://spotify-review-priority-audit.ccostoyaruiz.chatgpt.site
+- **Interruption/resume recording:** [silent captioned demonstration](https://drive.google.com/file/d/1FULOF_XK3WMUz5DyDVkS04E88fmp14Bi/view?usp=drive_link)
 - **Local dashboard:** `http://127.0.0.1:8000` after following the commands below
 
 The live dashboard exposes the official aggregate metrics, all 21 ranked issues, the grounded recommendation,
@@ -324,7 +325,7 @@ tests/                    deterministic regression tests
 | Correct calculations and source evidence | [membership](grading/membership.csv), [ranking](grading/ranking.csv), [claims](grading/claims.csv), [checker](outputs/self-check-final-100000.json) | Checker passes |
 | Recommendation, alternatives, limitations | [Final memo](outputs/runs/final-100000/memo.md) | Complete; human-reviewed |
 | Golden labels and error analysis | [Golden 50](evals/golden_50_to_label.csv), [V2 results](evals/golden_results_v2.json), [analysis](evals/golden_error_analysis.md) | Complete |
-| Independent verification and system tests | [Verification report](outputs/runs/final-100000/verification_report.json), [tests](tests/), [system cases](evals/system_cases.jsonl) | Complete; 135/1,000 disclosed |
+| Independent verification and system tests | [Verification report](outputs/runs/final-100000/verification_report.json), [tests](tests/), [system cases](evals/system_cases.jsonl), [resume recording](https://drive.google.com/file/d/1FULOF_XK3WMUz5DyDVkS04E88fmp14Bi/view?usp=drive_link) | Complete; 135/1,000 disclosed |
 | Cost/runtime and controls | [Pilot report](cost/report.md), [rates](cost/rates.csv), [official cost](outputs/runs/final-100000/cost_report.md), [recovery](outputs/runs/final-100000/recovery.md) | Complete locally |
 | Full ingestion and classification coverage | [Ingestion](grading/ingestion.json), [records](grading/records.jsonl), [checker](outputs/self-check-final-100000.json) | 100,000/100,000 valid |
 | Runnable stages, bounded calls, saved handoffs, resume | [Pipeline](src/spotify_audit/pipeline.py), [calls](grading/calls.jsonl), [checkpoints](grading/checkpoint_before.json) | Complete |

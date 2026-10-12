@@ -24,7 +24,7 @@ This map identifies the verified official-run and publication evidence.
 | Criterion | Evidence | Status |
 |---|---|---|
 | 100,000-review coverage | `grading/`, `outputs/self-check-final-100000.json` | Official checker passes; 100,000/100,000 valid |
-| Runnable staged program and resume | `src/spotify_audit/`, checkpoints in `grading/`, official `recovery.md` | Verified on official run |
+| Runnable staged program and resume | `src/spotify_audit/`, checkpoints in `grading/`, official `recovery.md`, [recording](https://drive.google.com/file/d/1FULOF_XK3WMUz5DyDVkS04E88fmp14Bi/view?usp=drive_link) | Verified on official run and recorded |
 | Ranking and deployed dashboard | offline ranking, SQLite API, `dashboard/`, `dashboard-site/` | Published and publicly accessible |
 
 ## Remaining warning
