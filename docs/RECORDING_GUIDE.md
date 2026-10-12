@@ -25,6 +25,12 @@ not modify the official run.
 
 Recommended length: 3 to 4 minutes.
 
+### Silent caption option
+
+If recording without a microphone, open `docs/recording_captions.html` in a browser. It contains seven
+full-screen caption cards. Use the left and right arrow keys to move between them, switching to the terminal or
+dashboard whenever the corresponding evidence should be shown.
+
 ## Commands to copy before starting
 
 Run each command separately while recording:

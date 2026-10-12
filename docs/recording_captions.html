@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Interruption and Resume Recording Captions</title>
+  <style>
+    :root { color-scheme: dark; font-family: Inter, ui-sans-serif, system-ui, -apple-system, sans-serif; }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: #0d1510; color: #f5f2e9; overflow: hidden; }
+    main { height: 100vh; }
+    section {
+      display: none;
+      height: 100vh;
+      padding: 9vh 9vw;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+    section.active { display: flex; }
+    .card { max-width: 1100px; }
+    .eyebrow { color: #75db8c; font-size: clamp(16px, 2vw, 26px); font-weight: 750; letter-spacing: .12em; text-transform: uppercase; }
+    h1 { margin: 22px 0; font-family: Georgia, serif; font-size: clamp(42px, 7vw, 92px); line-height: 1.02; font-weight: 500; }
+    p { margin: 0 auto; max-width: 940px; font-size: clamp(22px, 3vw, 40px); line-height: 1.35; color: #d9d7cf; }
+    .numbers { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; margin-top: 42px; }
+    .metric { padding: 24px 14px; border: 1px solid #465148; border-radius: 16px; background: #152019; }
+    .metric strong { display: block; color: #ffffff; font-family: Georgia, serif; font-size: clamp(34px, 5vw, 64px); }
+    .metric span { font-size: clamp(15px, 1.8vw, 22px); color: #b9c1ba; }
+    footer { position: fixed; inset: auto 28px 22px; display: flex; justify-content: space-between; color: #8f9a91; font-size: 14px; }
+    @media (max-width: 760px) { .numbers { grid-template-columns: 1fr; } }
+  </style>
+</head>
+<body>
+  <main>
+    <section class="active">
+      <div class="card">
+        <div class="eyebrow">Spotify Review Priority Audit</div>
+        <h1>Interruption and resume demonstration</h1>
+        <p>The official run covers 100,000 reviews and preserves its checkpoints, call log, and recovery evidence.</p>
+      </div>
+    </section>
+
+    <section>
+      <div class="card">
+        <div class="eyebrow">Checkpoint evidence</div>
+        <h1>Saved work survived the interruption</h1>
+        <div class="numbers">
+          <div class="metric"><strong>9,309</strong><span>complete before interruption</span></div>
+          <div class="metric"><strong>100,000</strong><span>complete after recovery</span></div>
+          <div class="metric"><strong>90,691</strong><span>new completions after resume</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="card">
+        <div class="eyebrow">No duplicate paid work</div>
+        <h1>Zero completed IDs were enriched again</h1>
+        <p>The verifier compares all pre-interruption completed IDs with every review ID in resumed enrichment calls. The overlap is zero.</p>
+      </div>
+    </section>
+
+    <section>
+      <div class="card">
+        <div class="eyebrow">Resume mechanism</div>
+        <h1>Only pending work is dispatched</h1>
+        <p>The pipeline loads saved records by review ID, skips valid completed IDs, and reuses exact duplicate text only under the same label configuration.</p>
+      </div>
+    </section>
+
+    <section>
+      <div class="card">
+        <div class="eyebrow">Recovery controls</div>
+        <h1>Failures were retried in smaller batches</h1>
+        <p>The resumed run used five bounded workers, then batch sizes 10 and 1 for recovery. It finished with 100,000 completed and zero unresolved reviews.</p>
+      </div>
+    </section>
+
+    <section>
+      <div class="card">
+        <div class="eyebrow">Working result</div>
+        <h1>Recovered data powers the final dashboard</h1>
+        <p>The saved classifications feed deterministic rankings, a deployed database-backed dashboard, and the recommendation to prioritize general playback reliability.</p>
+      </div>
+    </section>
+
+    <section>
+      <div class="card">
+        <div class="eyebrow">Demonstration complete</div>
+        <h1>Saved. Resumed. Verified.</h1>
+        <p>The evidence shows new completed work after a real interruption, without paying to relabel IDs that were already complete.</p>
+      </div>
+    </section>
+  </main>
+  <footer><span>Use ← and → to change captions</span><span id="counter">1 / 7</span></footer>
+  <script>
+    const slides = [...document.querySelectorAll("section")];
+    const counter = document.querySelector("#counter");
+    let current = 0;
+    function show(index) {
+      current = Math.max(0, Math.min(slides.length - 1, index));
+      slides.forEach((slide, i) => slide.classList.toggle("active", i === current));
+      counter.textContent = `${current + 1} / ${slides.length}`;
+    }
+    addEventListener("keydown", event => {
+      if (["ArrowRight", "PageDown", " "].includes(event.key)) show(current + 1);
+      if (["ArrowLeft", "PageUp"].includes(event.key)) show(current - 1);
+      if (event.key === "Home") show(0);
+      if (event.key === "End") show(slides.length - 1);
+    });
+    addEventListener("click", () => show(current + 1));
+  </script>
+</body>
+</html>
